@@ -116,8 +116,8 @@
 																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/fc7f2cfe-df27-49ae-888d-6eded211a879.html" target="element"> Broker </a></li>
 																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/240a2c2e-bde3-4628-96c9-762fb2be5921.html" target="element"> Router </a></li>
 																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/fbb254c1-d1d3-463b-b71b-f90fc97dcd79.html" target="element"> Historical </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7e4e576a-38e9-4c43-8132-2fe0de85b962.html" target="element"> MiddleManager / Indexer </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-421284a6681a40b892fcbb3c0813afbd.html" target="element"> MiddleManager Task / Worker </a></li>
+																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7e4e576a-38e9-4c43-8132-2fe0de85b962.html" target="element"> MiddleManager </a></li>
+																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-421284a6681a40b892fcbb3c0813afbd.html" target="element"> MiddleManager Task </a></li>
 
 															</ul>
 															</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Dependencies </span>
@@ -145,6 +145,7 @@
 															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6c6759bf-fc3d-4a7f-92f5-6bb7272c4303.html" target="element"> Broker Segment Announcements Cache </a></li>
 															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a1b78133-5bd0-4900-872e-0a3698a708be.html" target="element"> Ingestion Work Queues </a></li>
 															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-68fcb10cda954505b000c59ff7b67199.html" target="element"> Leader Election Latch </a></li>
+															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2d96f1c7bf7142a693352f5ab494ce2e.html" target="element"> Source Data </a></li>
 
 											</ul>
 											</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Services </span>
@@ -248,7 +249,7 @@
 									<ul>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f8a170a2-3ab2-458a-bbbf-a1236961b9ec.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
-														(Ingest - MiddleManager / Indexer) 
+														(Ingest - MiddleManager) 
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a9cce08f-a609-47e0-af26-2ef123ad374d.html" target="element">
 															service announce
@@ -336,7 +337,7 @@
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8ae28c92-e81a-45fa-9b1e-67635690c52f.html" target="element">
 															ingest jobs
-														(MiddleManager / Indexer - Ingestion Work Queues) 
+														(MiddleManager - Ingestion Work Queues) 
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/134727e1-2694-4da8-8cf8-c19423f3195f.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
@@ -388,7 +389,7 @@
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b8bee8cd-9289-42b1-add3-4ce3915a26bd.html" target="element">
 															service announce
-														(MiddleManager / Indexer - Published Services) 
+														(MiddleManager - Published Services) 
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7c4e5565-f77f-4e22-a74c-4f84717a11a2.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
@@ -504,7 +505,7 @@
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e0238b4d-bf2d-4d53-9d77-c02a188d6727.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
-														(Query - MiddleManager / Indexer) 
+														(Query - MiddleManager) 
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/69819171-6ff2-4479-bb58-be4925f80a88.html" target="element">
 															ingest jobs
@@ -528,11 +529,11 @@
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/1fd3206f-8d1d-4be9-a587-48fb3b220523.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
-														(Assign &amp; Balance - MiddleManager / Indexer) 
+														(Assign &amp; Balance - MiddleManager) 
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/18c80a5e-119c-4094-bebd-05d261e77e35.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
-														(MiddleManager / Indexer - MM / Indexer Query) 
+														(MiddleManager - MM / Indexer Query) 
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ef05d433-6035-41c2-b519-2a0ae07f0ee8.html" target="element">
 															<span class="i18n-elementtype-AssociationRelationship"></span>
@@ -580,7 +581,7 @@
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5c835931-0a8c-4ba7-a532-edef1eacc4f2.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
-														(Data Server - MiddleManager / Indexer) 
+														(Data Server - MiddleManager) 
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/85cfc446-d72b-493a-8c71-d2ac53469080.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
@@ -748,11 +749,11 @@
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6d608b684dcf4c6a8259f729d1d13c77.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
-														(MiddleManager / Indexer - MiddleManager Task / Worker) 
+														(MiddleManager - MiddleManager Task) 
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3043f8f7fae346ee9a8b5af4b114c07c.html" target="element">
 															segment push
-														(MiddleManager Task / Worker - Deep Storage) 
+														(MiddleManager Task - Deep Storage) 
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-0e4fe2c6eeff416b8ea84ee5b4cabdde.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
@@ -760,7 +761,27 @@
 													</a></li>
 													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5c378a34f76f426ca4cd8cc28cf6dbef.html" target="element">
 															rule task
-														(MiddleManager / Indexer - Load Queue) 
+														(MiddleManager - Load Queue) 
+													</a></li>
+													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-50d88764a2b54ca98c32748472c494e3.html" target="element">
+															segment announce
+														(MiddleManager Task - Published Segments) 
+													</a></li>
+													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-88411b221a7a4eb3896d41a3d6473000.html" target="element">
+															<span class="i18n-elementtype-AssignmentRelationship"></span>
+														(Overlord - MiddleManager Batch Ingestion Task) 
+													</a></li>
+													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9e83580457d84814af96b788a503449d.html" target="element">
+															<span class="i18n-elementtype-AccessRelationship"></span>
+														(MiddleManager Task - Source Data) 
+													</a></li>
+													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-614053397db24049a7d7fdb14d16852f.html" target="element">
+															<span class="i18n-elementtype-AssignmentRelationship"></span>
+														(Zookeeper - MiddleManager Batch Ingestion Task) 
+													</a></li>
+													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e42f86d703d6413ab8ffba33f2c81477.html" target="element">
+															<span class="i18n-elementtype-AssignmentRelationship"></span>
+														(MiddleManager Task - MiddleManager Batch Ingestion Task) 
 													</a></li>
 
 									</ul>
@@ -783,16 +804,32 @@
 									<ul>
 										<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Technology </span>
 											<ul>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/b076352e-bcd0-41b8-8980-f925e06f670c.html" target="view"> 4 Summary </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/3e5b650f-dbf7-4f40-b123-48ecdec4ca8c.html" target="view"> 2 Query </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/9de6a14c-b818-4e0e-ac61-a40793825dd6.html" target="view"> 1 Ingest </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/9badf9d8-ca5c-4505-8c73-aac444baf2dc.html" target="view"> 3 DBM </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/fa4732be-ca78-4734-85e3-b92e7b476e60.html" target="view"> 5 Deployment </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/507738b1-fc5d-4d2b-8e08-6c89b5f45d44.html" target="view"> 0 High Level </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-eb19a688f8034670be503735ca56312a.html" target="view"> 6.1 Metadata Database </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-eb869558058b4205a1359117c9c6d8e6.html" target="view"> 6.2 Deep Storage </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-fe356d35cff94538a0ed5a464abf95cb.html" target="view"> 6.3 Zookeeper </a></li>
+												<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Detailed </span>
+													<ul>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/507738b1-fc5d-4d2b-8e08-6c89b5f45d44.html" target="view"> 0 High Level </a></li>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/9de6a14c-b818-4e0e-ac61-a40793825dd6.html" target="view"> 1 Ingest </a></li>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/3e5b650f-dbf7-4f40-b123-48ecdec4ca8c.html" target="view"> 2 Query </a></li>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/9badf9d8-ca5c-4505-8c73-aac444baf2dc.html" target="view"> 3 DBM </a></li>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/b076352e-bcd0-41b8-8980-f925e06f670c.html" target="view"> 4 Summary </a></li>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/fa4732be-ca78-4734-85e3-b92e7b476e60.html" target="view"> 5 Deployment </a></li>
 
+													</ul>
+													</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Dependencies </span>
+													<ul>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-9d2502a7e48f4855aee8a14b31317b51.html" target="view"> 6 Dependencies </a></li>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-eb19a688f8034670be503735ca56312a.html" target="view"> 6.1 Metadata Database </a></li>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-eb869558058b4205a1359117c9c6d8e6.html" target="view"> 6.2 Deep Storage </a></li>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-fe356d35cff94538a0ed5a464abf95cb.html" target="view"> 6.3 Zookeeper </a></li>
+
+													</ul>
+													</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Collaborations </span>
+													<ul>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-57d762878fe6416698a44645d143fbcd.html" target="view"> A0 Collaborations Overview </a></li>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-1fc0c5e4264848b3adb0d4f84e3158c6.html" target="view"> A1 Ingestion </a></li>
+																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-4157f8f26e8847ce8b83e734c8b40ed3.html" target="view"> A2 Assignment and Balance </a></li>
+
+													</ul>
+													</li>
 											</ul>
 											</li>
 									</ul>
