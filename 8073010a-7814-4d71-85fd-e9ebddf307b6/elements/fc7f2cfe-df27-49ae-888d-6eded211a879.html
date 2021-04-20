@@ -46,13 +46,13 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">Divines and forwards query work to MiddleManagers / Historicals and merges results.
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Divines and fans out query work to MiddleManagers / Historicals and merges the results with a fan in.  There is less data in query processing here than at those lower levels.
 
 These processes are stateless.
 
 There is one thread pool for all queries - druid.server.http.numThreads - one entry per query request / healthcheck.
 
-1) It handles SQL to Native Query translation in Apache Calcite [SqlLifecycle / PlannerFactory / SqlResource] and issues the native Druid version
+1) The broker handles SQL to Native Query translation in Apache Calcite [SqlLifecycle / PlannerFactory / SqlResource] and issues the native Druid version
 
 2) Jersey entrypoint for QueryResource / QueryLifecycle encapsulates authorisation (table based by looking at the datasources - boolean decision), issuing the query itself and collecting the results, and emitting metrics and logs
 
@@ -60,11 +60,15 @@ There is one thread pool for all queries - druid.server.http.numThreads - one en
 
 4) CachineClusteredClient prunes the segments required, and then fans out the jobs to the data servers, able to determine which boxes contain the data it needs to query on partitions - ie time and secondary partitions on some dim from shardSpecs.  A connection from the druid.broker.http.numConnections is taken up for every connection to a data server that the query needs to contact.
 
-5) Results are merged in merge buffers - druid.processing.numMergeBuffers for GROUP BY operations and when subqueries are involved, one buffer per query
-
 ServerView and InventoryView monitor the announcements - along with DruidNodeDiscoveryProvider
 
-In code, "client" usually refers to the broker, and "server" usually refers to the data servers</div>
+In code, "client" usually refers to the broker, and "server" usually refers to the data servers
+
+Results from data nodes (Historicals and Middle Manager Tasks) are merged in merge buffers - druid.processing.numMergeBuffers - both for GROUP BY operations and when subqueries are involved, one buffer per query.  This scalability to all processors on one Broker host is one reason why larger brokers are often recommended rather than lots of (independent) small ones.
+
+Bottlenecks can occur when there is a lot of data to merge (there is one thread per processor for merging) or because there are not enough Jetty threads to handle each query.
+
+The Jetty thread applies (a) HAVING, (b) ORDER BY (if not pushed down - e.g. exact calculations), and (c) LIMIT.</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">

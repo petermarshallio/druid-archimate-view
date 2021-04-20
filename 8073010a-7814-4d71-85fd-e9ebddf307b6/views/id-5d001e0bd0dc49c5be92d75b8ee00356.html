@@ -1,0 +1,419 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Ingestion</title>
+
+	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
+	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Ingestion</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/id-5d001e0bd0dc49c5be92d75b8ee00356.png" alt="Ingestion" usemap="#id-5d001e0bd0dc49c5be92d75b8ee00356map"/>
+			   <map name="id-5d001e0bd0dc49c5be92d75b8ee00356map">
+				  		<area shape="rect" coords="671,364,791,419" href="../elements/a1b78133-5bd0-4900-872e-0a3698a708be.html"  target="element">
+				  		<area shape="rect" coords="671,442,791,497" href="../elements/936f04be-2edb-4a0d-a862-e2a34ce8a127.html"  target="element">
+				  		<area shape="rect" coords="514,364,634,497" href="../elements/953f5d8a-ed01-4c51-b53b-639ae7810476.html"  target="element">
+				  				<area shape="rect" coords="298,292,467,347" href="../elements/e536bf85-a695-43fb-854a-9fd64c58b16b.html"  target="element">
+				  						<area shape="rect" coords="310,544,455,599" href="../elements/id-421284a6681a40b892fcbb3c0813afbd.html"  target="element">
+
+				  				<area shape="rect" coords="298,520,467,605" href="../elements/7e4e576a-38e9-4c43-8132-2fe0de85b962.html"  target="element">
+				  				<area shape="rect" coords="298,364,467,497" href="../elements/74d40498-9ec0-4d6b-b546-07ad79278286.html"  target="element">
+				  				<area shape="rect" coords="298,220,467,275" href="../elements/1012c202-e16c-46cd-9bbe-1c616f61ae8c.html"  target="element">
+
+				  		<area shape="rect" coords="286,154,479,647" href="../elements/59942e93-1291-4fe7-a4ea-9e08291e9d7b.html"  target="element">
+				  		<area shape="rect" coords="671,292,791,347" href="../elements/7d5ea31a-3e7c-4d22-aac2-a59692dd767d.html"  target="element">
+				  		<area shape="rect" coords="671,220,791,275" href="../elements/9175fdbe-2782-4958-b648-50a206d9c133.html"  target="element">
+				  		<area shape="rect" coords="323,10,443,65" href="../elements/id-3d6dbecdd5e7490093c8bbf5121c13aa.html"  target="element">
+				  		<area shape="rect" coords="53,10,173,65" href="../elements/25d02e0f-1ffe-4a5e-bc8d-6718b603ab17.html"  target="element">
+				  						<area shape="rect" coords="52,562,172,617" href="../elements/id-75a3d0320c3e4713b85d454a3f17ab79.html"  target="element">
+				  						<area shape="rect" coords="52,490,172,545" href="../elements/id-9fdaadfb83d24a24b5ed71a785235f6e.html"  target="element">
+				  						<area shape="rect" coords="52,418,172,473" href="../elements/id-4e23113cd7444610ba469e149105ca92.html"  target="element">
+
+				  				<area shape="rect" coords="40,382,185,635" href="../elements/id-92131efde5c14ec7adfc69322abdc3e3.html"  target="element">
+				  						<area shape="rect" coords="58,298,178,353" href="../elements/id-7e05c188bcfa46bf895e6e21c85b3415.html"  target="element">
+				  						<area shape="rect" coords="58,238,178,293" href="../elements/id-def05740e4f542c4b480921ab0a982c7.html"  target="element">
+
+				  				<area shape="rect" coords="34,190,191,362" href="../elements/id-908f53e3ef73408998aeaad16695f0ec.html"  target="element">
+
+				  		<area shape="rect" coords="10,154,215,647" href="../elements/id-42f44928b1f94fcfb84a1100f135a2b1.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/id-42f44928b1f94fcfb84a1100f135a2b1.html" target="element"> Ingest Data </a> </td>
+											    <td> <a href="../elements/id-42f44928b1f94fcfb84a1100f135a2b1.html" target="element" class="i18n-elementtype-TechnologyInteraction"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/id-908f53e3ef73408998aeaad16695f0ec.html" target="element"> Data Ingestion Leadership </a> </td>
+													    <td> <a href="../elements/id-908f53e3ef73408998aeaad16695f0ec.html" target="element" class="i18n-elementtype-TechnologyFunction"> </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-def05740e4f542c4b480921ab0a982c7.html" target="element"> Monitor some Batch Ingests </a> </td>
+															    <td> <a href="../elements/id-def05740e4f542c4b480921ab0a982c7.html" target="element" class="i18n-elementtype-TechnologyProcess"> </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-7e05c188bcfa46bf895e6e21c85b3415.html" target="element"> Split into subtasks </a> </td>
+															    <td> <a href="../elements/id-7e05c188bcfa46bf895e6e21c85b3415.html" target="element" class="i18n-elementtype-TechnologyProcess"> </a> </td>
+															</tr>
+
+													
+													<tr>
+													    <td> <a href="../elements/id-92131efde5c14ec7adfc69322abdc3e3.html" target="element"> Data Ingestion </a> </td>
+													    <td> <a href="../elements/id-92131efde5c14ec7adfc69322abdc3e3.html" target="element" class="i18n-elementtype-TechnologyFunction"> </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-4e23113cd7444610ba469e149105ca92.html" target="element"> Ingest from some Objects </a> </td>
+															    <td> <a href="../elements/id-4e23113cd7444610ba469e149105ca92.html" target="element" class="i18n-elementtype-TechnologyProcess"> </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-9fdaadfb83d24a24b5ed71a785235f6e.html" target="element"> Publish to mddb </a> </td>
+															    <td> <a href="../elements/id-9fdaadfb83d24a24b5ed71a785235f6e.html" target="element" class="i18n-elementtype-TechnologyProcess"> </a> </td>
+															</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-75a3d0320c3e4713b85d454a3f17ab79.html" target="element"> Persist to deep store </a> </td>
+															    <td> <a href="../elements/id-75a3d0320c3e4713b85d454a3f17ab79.html" target="element" class="i18n-elementtype-TechnologyProcess"> </a> </td>
+															</tr>
+
+													
+											
+											<tr>
+											    <td> <a href="../elements/25d02e0f-1ffe-4a5e-bc8d-6718b603ab17.html" target="element"> Ingestion </a> </td>
+											    <td> <a href="../elements/25d02e0f-1ffe-4a5e-bc8d-6718b603ab17.html" target="element" class="i18n-elementtype-TechnologyService"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/id-3d6dbecdd5e7490093c8bbf5121c13aa.html" target="element"> Overlord REST API </a> </td>
+											    <td> <a href="../elements/id-3d6dbecdd5e7490093c8bbf5121c13aa.html" target="element" class="i18n-elementtype-TechnologyInterface"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/9175fdbe-2782-4958-b648-50a206d9c133.html" target="element"> Overlord Cluster Snapshot </a> </td>
+											    <td> <a href="../elements/9175fdbe-2782-4958-b648-50a206d9c133.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/7d5ea31a-3e7c-4d22-aac2-a59692dd767d.html" target="element"> Metadata Database </a> </td>
+											    <td> <a href="../elements/7d5ea31a-3e7c-4d22-aac2-a59692dd767d.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/59942e93-1291-4fe7-a4ea-9e08291e9d7b.html" target="element"> Data Ingestion </a> </td>
+											    <td> <a href="../elements/59942e93-1291-4fe7-a4ea-9e08291e9d7b.html" target="element" class="i18n-elementtype-TechnologyCollaboration"> </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../elements/1012c202-e16c-46cd-9bbe-1c616f61ae8c.html" target="element"> Overlord </a> </td>
+													    <td> <a href="../elements/1012c202-e16c-46cd-9bbe-1c616f61ae8c.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/74d40498-9ec0-4d6b-b546-07ad79278286.html" target="element"> Zookeeper </a> </td>
+													    <td> <a href="../elements/74d40498-9ec0-4d6b-b546-07ad79278286.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+													</tr>
+
+													<tr>
+													    <td> <a href="../elements/7e4e576a-38e9-4c43-8132-2fe0de85b962.html" target="element"> MiddleManager </a> </td>
+													    <td> <a href="../elements/7e4e576a-38e9-4c43-8132-2fe0de85b962.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+													</tr>
+
+															<tr>
+															    <td> <a href="../elements/id-421284a6681a40b892fcbb3c0813afbd.html" target="element"> MiddleManager Task </a> </td>
+															    <td> <a href="../elements/id-421284a6681a40b892fcbb3c0813afbd.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+															</tr>
+
+													
+													<tr>
+													    <td> <a href="../elements/e536bf85-a695-43fb-854a-9fd64c58b16b.html" target="element"> Relational DB </a> </td>
+													    <td> <a href="../elements/e536bf85-a695-43fb-854a-9fd64c58b16b.html" target="element" class="i18n-elementtype-SystemSoftware"> </a> </td>
+													</tr>
+
+											
+											<tr>
+											    <td> <a href="../elements/953f5d8a-ed01-4c51-b53b-639ae7810476.html" target="element"> druid </a> </td>
+											    <td> <a href="../elements/953f5d8a-ed01-4c51-b53b-639ae7810476.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/936f04be-2edb-4a0d-a862-e2a34ce8a127.html" target="element"> Published Services </a> </td>
+											    <td> <a href="../elements/936f04be-2edb-4a0d-a862-e2a34ce8a127.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/a1b78133-5bd0-4900-872e-0a3698a708be.html" target="element"> Ingestion Work Queues </a> </td>
+											    <td> <a href="../elements/a1b78133-5bd0-4900-872e-0a3698a708be.html" target="element" class="i18n-elementtype-Artifact"> </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/id-4bfd1883f5a643d4ae8d51cbb77c04f2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-4bfd1883f5a643d4ae8d51cbb77c04f2.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																		<td> <a href="../elements/id-42f44928b1f94fcfb84a1100f135a2b1.html" target="element"> Ingest Data </a> </td>
+																		<td> <a href="../elements/25d02e0f-1ffe-4a5e-bc8d-6718b603ab17.html" target="element"> Ingestion </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-7fc794190e7e4f1aa17125d88ceb1a50.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-7fc794190e7e4f1aa17125d88ceb1a50.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/id-42f44928b1f94fcfb84a1100f135a2b1.html" target="element"> Ingest Data </a> </td>
+																		<td> <a href="../elements/id-908f53e3ef73408998aeaad16695f0ec.html" target="element"> Data Ingestion Leadership </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/id-2f1b1198b69448fa87ce5f5239df9ef6.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-2f1b1198b69448fa87ce5f5239df9ef6.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/id-42f44928b1f94fcfb84a1100f135a2b1.html" target="element"> Ingest Data </a> </td>
+																		<td> <a href="../elements/id-92131efde5c14ec7adfc69322abdc3e3.html" target="element"> Data Ingestion </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-b03547c9976941c3bfc2ef4f55e92613.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-b03547c9976941c3bfc2ef4f55e92613.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/id-908f53e3ef73408998aeaad16695f0ec.html" target="element"> Data Ingestion Leadership </a> </td>
+																				<td> <a href="../elements/id-def05740e4f542c4b480921ab0a982c7.html" target="element"> Monitor some Batch Ingests </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-d71c012792cd4cb9904a745ccea50d81.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-d71c012792cd4cb9904a745ccea50d81.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/id-908f53e3ef73408998aeaad16695f0ec.html" target="element"> Data Ingestion Leadership </a> </td>
+																				<td> <a href="../elements/id-7e05c188bcfa46bf895e6e21c85b3415.html" target="element"> Split into subtasks </a> </td>
+																			</tr>
+
+													
+																			<tr>
+																				<td> <a href="../elements/id-a8b59ad97b9f409e84e5e35d5772e9fa.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-a8b59ad97b9f409e84e5e35d5772e9fa.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/id-92131efde5c14ec7adfc69322abdc3e3.html" target="element"> Data Ingestion </a> </td>
+																				<td> <a href="../elements/id-4e23113cd7444610ba469e149105ca92.html" target="element"> Ingest from some Objects </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-09d611d967f149e5afe3086e1d1b6db3.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-09d611d967f149e5afe3086e1d1b6db3.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/id-92131efde5c14ec7adfc69322abdc3e3.html" target="element"> Data Ingestion </a> </td>
+																				<td> <a href="../elements/id-9fdaadfb83d24a24b5ed71a785235f6e.html" target="element"> Publish to mddb </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-95e20db0b8c043e9977853577a32414c.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-95e20db0b8c043e9977853577a32414c.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/id-92131efde5c14ec7adfc69322abdc3e3.html" target="element"> Data Ingestion </a> </td>
+																				<td> <a href="../elements/id-75a3d0320c3e4713b85d454a3f17ab79.html" target="element"> Persist to deep store </a> </td>
+																			</tr>
+
+													
+											
+																	<tr>
+																		<td> <a href="../elements/id-51db4598eff744c39e017f6f8b389e83.html" target="element">  </a> </td>
+																		<td> <a href="../elements/id-51db4598eff744c39e017f6f8b389e83.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																		<td> <a href="../elements/id-3d6dbecdd5e7490093c8bbf5121c13aa.html" target="element"> Overlord REST API </a> </td>
+																		<td> <a href="../elements/25d02e0f-1ffe-4a5e-bc8d-6718b603ab17.html" target="element"> Ingestion </a> </td>
+																	</tr>
+
+																	<tr>
+																		<td> <a href="../elements/f8a170a2-3ab2-458a-bbbf-a1236961b9ec.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f8a170a2-3ab2-458a-bbbf-a1236961b9ec.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/59942e93-1291-4fe7-a4ea-9e08291e9d7b.html" target="element"> Data Ingestion </a> </td>
+																		<td> <a href="../elements/7e4e576a-38e9-4c43-8132-2fe0de85b962.html" target="element"> MiddleManager </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/0ab034bc-1b7d-4767-9cbc-8daf0e6c280c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/0ab034bc-1b7d-4767-9cbc-8daf0e6c280c.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/59942e93-1291-4fe7-a4ea-9e08291e9d7b.html" target="element"> Data Ingestion </a> </td>
+																		<td> <a href="../elements/74d40498-9ec0-4d6b-b546-07ad79278286.html" target="element"> Zookeeper </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/2d7a037a-502f-4c8c-bbc8-b2b8a41a6130.html" target="element">  </a> </td>
+																		<td> <a href="../elements/2d7a037a-502f-4c8c-bbc8-b2b8a41a6130.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/59942e93-1291-4fe7-a4ea-9e08291e9d7b.html" target="element"> Data Ingestion </a> </td>
+																		<td> <a href="../elements/1012c202-e16c-46cd-9bbe-1c616f61ae8c.html" target="element"> Overlord </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/13a56670-3e7e-4aef-a56c-32e6ded6dc84.html" target="element">  </a> </td>
+																		<td> <a href="../elements/13a56670-3e7e-4aef-a56c-32e6ded6dc84.html" target="element" class="i18n-elementtype-AggregationRelationship"></a> </td>
+																		<td> <a href="../elements/59942e93-1291-4fe7-a4ea-9e08291e9d7b.html" target="element"> Data Ingestion </a> </td>
+																		<td> <a href="../elements/e536bf85-a695-43fb-854a-9fd64c58b16b.html" target="element"> Relational DB </a> </td>
+																	</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-78ad155949cd4f68a901f9fa614be964.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-78ad155949cd4f68a901f9fa614be964.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/1012c202-e16c-46cd-9bbe-1c616f61ae8c.html" target="element"> Overlord </a> </td>
+																				<td> <a href="../elements/id-3d6dbecdd5e7490093c8bbf5121c13aa.html" target="element"> Overlord REST API </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/4b20c32f-bfe7-4529-8ae1-4beebab0b0dd.html" target="element">  </a> </td>
+																				<td> <a href="../elements/4b20c32f-bfe7-4529-8ae1-4beebab0b0dd.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/1012c202-e16c-46cd-9bbe-1c616f61ae8c.html" target="element"> Overlord </a> </td>
+																				<td> <a href="../elements/9175fdbe-2782-4958-b648-50a206d9c133.html" target="element"> Overlord Cluster Snapshot </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/69819171-6ff2-4479-bb58-be4925f80a88.html" target="element"> ingest jobs </a> </td>
+																				<td> <a href="../elements/69819171-6ff2-4479-bb58-be4925f80a88.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/1012c202-e16c-46cd-9bbe-1c616f61ae8c.html" target="element"> Overlord </a> </td>
+																				<td> <a href="../elements/a1b78133-5bd0-4900-872e-0a3698a708be.html" target="element"> Ingestion Work Queues </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/b41a0774-e940-42b7-a555-0b670733f781.html" target="element"> segment metadata </a> </td>
+																				<td> <a href="../elements/b41a0774-e940-42b7-a555-0b670733f781.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/1012c202-e16c-46cd-9bbe-1c616f61ae8c.html" target="element"> Overlord </a> </td>
+																				<td> <a href="../elements/7d5ea31a-3e7c-4d22-aac2-a59692dd767d.html" target="element"> Metadata Database </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/f8340565-1f0c-44f7-94bc-1c53cfca3b44.html" target="element"> service announce </a> </td>
+																				<td> <a href="../elements/f8340565-1f0c-44f7-94bc-1c53cfca3b44.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/1012c202-e16c-46cd-9bbe-1c616f61ae8c.html" target="element"> Overlord </a> </td>
+																				<td> <a href="../elements/936f04be-2edb-4a0d-a862-e2a34ce8a127.html" target="element"> Published Services </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/id-c8d8893443d44d1ebe37b0c3e47a548f.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-c8d8893443d44d1ebe37b0c3e47a548f.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																				<td> <a href="../elements/1012c202-e16c-46cd-9bbe-1c616f61ae8c.html" target="element"> Overlord </a> </td>
+																				<td> <a href="../elements/id-908f53e3ef73408998aeaad16695f0ec.html" target="element"> Data Ingestion Leadership </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/fb5de5f2-4541-49b6-9d41-c77c8989f51a.html" target="element">  </a> </td>
+																				<td> <a href="../elements/fb5de5f2-4541-49b6-9d41-c77c8989f51a.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/74d40498-9ec0-4d6b-b546-07ad79278286.html" target="element"> Zookeeper </a> </td>
+																				<td> <a href="../elements/953f5d8a-ed01-4c51-b53b-639ae7810476.html" target="element"> druid </a> </td>
+																			</tr>
+
+																			<tr>
+																				<td> <a href="../elements/id-6d608b684dcf4c6a8259f729d1d13c77.html" target="element">  </a> </td>
+																				<td> <a href="../elements/id-6d608b684dcf4c6a8259f729d1d13c77.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																				<td> <a href="../elements/7e4e576a-38e9-4c43-8132-2fe0de85b962.html" target="element"> MiddleManager </a> </td>
+																				<td> <a href="../elements/id-421284a6681a40b892fcbb3c0813afbd.html" target="element"> MiddleManager Task </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/8ae28c92-e81a-45fa-9b1e-67635690c52f.html" target="element"> ingest jobs </a> </td>
+																				<td> <a href="../elements/8ae28c92-e81a-45fa-9b1e-67635690c52f.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/7e4e576a-38e9-4c43-8132-2fe0de85b962.html" target="element"> MiddleManager </a> </td>
+																				<td> <a href="../elements/a1b78133-5bd0-4900-872e-0a3698a708be.html" target="element"> Ingestion Work Queues </a> </td>
+																			</tr>
+																			<tr>
+																				<td> <a href="../elements/b8bee8cd-9289-42b1-add3-4ce3915a26bd.html" target="element"> service announce </a> </td>
+																				<td> <a href="../elements/b8bee8cd-9289-42b1-add3-4ce3915a26bd.html" target="element" class="i18n-elementtype-AccessRelationship"></a> </td>
+																				<td> <a href="../elements/7e4e576a-38e9-4c43-8132-2fe0de85b962.html" target="element"> MiddleManager </a> </td>
+																				<td> <a href="../elements/936f04be-2edb-4a0d-a862-e2a34ce8a127.html" target="element"> Published Services </a> </td>
+																			</tr>
+
+																					<tr>
+																						<td> <a href="../elements/id-bacf9a3b122c434aab0343fb5c4d6ece.html" target="element">  </a> </td>
+																						<td> <a href="../elements/id-bacf9a3b122c434aab0343fb5c4d6ece.html" target="element" class="i18n-elementtype-RealizationRelationship"></a> </td>
+																						<td> <a href="../elements/id-421284a6681a40b892fcbb3c0813afbd.html" target="element"> MiddleManager Task </a> </td>
+																						<td> <a href="../elements/id-92131efde5c14ec7adfc69322abdc3e3.html" target="element"> Data Ingestion </a> </td>
+																					</tr>
+
+													
+																			<tr>
+																				<td> <a href="../elements/87a1695b-3548-452c-8974-c89dc08fc352.html" target="element">  </a> </td>
+																				<td> <a href="../elements/87a1695b-3548-452c-8974-c89dc08fc352.html" target="element" class="i18n-elementtype-AssignmentRelationship"></a> </td>
+																				<td> <a href="../elements/e536bf85-a695-43fb-854a-9fd64c58b16b.html" target="element"> Relational DB </a> </td>
+																				<td> <a href="../elements/7d5ea31a-3e7c-4d22-aac2-a59692dd767d.html" target="element"> Metadata Database </a> </td>
+																			</tr>
+
+											
+																	<tr>
+																		<td> <a href="../elements/7c4e5565-f77f-4e22-a74c-4f84717a11a2.html" target="element">  </a> </td>
+																		<td> <a href="../elements/7c4e5565-f77f-4e22-a74c-4f84717a11a2.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/953f5d8a-ed01-4c51-b53b-639ae7810476.html" target="element"> druid </a> </td>
+																		<td> <a href="../elements/a1b78133-5bd0-4900-872e-0a3698a708be.html" target="element"> Ingestion Work Queues </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f8ecffcd-2a83-4e2c-9449-63adc8e361ab.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f8ecffcd-2a83-4e2c-9449-63adc8e361ab.html" target="element" class="i18n-elementtype-CompositionRelationship"></a> </td>
+																		<td> <a href="../elements/953f5d8a-ed01-4c51-b53b-639ae7810476.html" target="element"> druid </a> </td>
+																		<td> <a href="../elements/936f04be-2edb-4a0d-a862-e2a34ce8a127.html" target="element"> Published Services </a> </td>
+																	</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
