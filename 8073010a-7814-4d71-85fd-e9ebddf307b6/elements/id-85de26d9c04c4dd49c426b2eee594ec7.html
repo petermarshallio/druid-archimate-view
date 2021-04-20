@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title></title>
+	<title>Overlord Configuration Service</title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -22,10 +22,11 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b class="i18n-elementtype-AssignmentRelationship"></b>
+               <b>Overlord Configuration Service</b>
+
             <!-- If a View with Viewpoint -->
-			   (<span class="i18n-elementtype-AssignmentRelationship"></span>)
-			   <a class="glyphicon glyphicon-info-sign" id="hint-AssignmentRelationship" target="hint"></a>
+			   (<span class="i18n-elementtype-TechnologyService"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-TechnologyService" target="hint"></a>
 		</div>
 
 		<div class="panel-body root-panel-body">
@@ -45,17 +46,16 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-							<br>
-							<b class="i18n-relation-source"></b>
-								<a href="../elements/id-f23e63ee792840a8b8fe6cf0209b025a.html" target="element">
-									Overlord
-								</a> <br>
-							<b class="i18n-relation-target"></b>
-								<a href="../elements/9175fdbe-2782-4958-b648-50a206d9c133.html" target="element">
-									Overlord Cluster Snapshot
-								</a> <br>
-							<br>
-						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Peek
+https://druid.apache.org/docs/latest/operations/api-reference.html#dynamic-configuration
+GET /druid/indexer/v1/worker
+GET /druid/indexer/v1/worker/history?interval={interval}&amp;counter={count}
+GET /druid/indexer/v1/scaling
+
+Poke
+https://druid.apache.org/docs/latest/operations/api-reference.html#dynamic-configuration
+POST /druid/indexer/v1/worker
+https://druid.apache.org/docs/latest/configuration/index.html#overlord-dynamic-configuration</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">

@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Ingestion</title>
+	<title>Streaming Ingestion Service</title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -22,7 +22,7 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Ingestion</b>
+               <b>Streaming Ingestion Service</b>
 
             <!-- If a View with Viewpoint -->
 			   (<span class="i18n-elementtype-TechnologyService"></span>)
@@ -46,7 +46,50 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap"></div>
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Supervisors are for long-running streaming ingestion (Kafka, Kinesis) while tasks are for once-off ingestion (HDFS, S3)
+
+Submit work
+https://druid.apache.org/docs/latest/operations/api-reference.html#post-4
+POST /druid/indexer/v1/task
+GET /druid/indexer/v1/supervisor/history
+GET /druid/indexer/v1/supervisor/&lt;supervisorId&gt;/history
+
+What's going on overall?
+https://druid.apache.org/docs/latest/operations/api-reference.html#get-15
+GET /druid/indexer/v1/supervisor
+GET /druid/indexer/v1/supervisor?full
+GET /druid/indexer/v1/supervisor?state=true
+
+How is one item of work going?
+https://druid.apache.org/docs/latest/operations/api-reference.html#get-15
+GET /druid/indexer/v1/supervisor/&lt;supervisorId&gt;/status
+
+What's it actually working on?
+https://druid.apache.org/docs/latest/operations/api-reference.html#get-15
+GET /druid/indexer/v1/supervisor/&lt;supervisorId&gt;
+
+What was the result of one supervisor?
+
+Control work
+
+Pause
+https://druid.apache.org/docs/latest/operations/api-reference.html#post-5
+POST /druid/indexer/v1/supervisor/{supervisorId}/suspend
+POST /druid/indexer/v1/supervisor/suspendAll
+
+Resume
+https://druid.apache.org/docs/latest/operations/api-reference.html#post-5
+POST /druid/indexer/v1/supervisor/&lt;supervisorId&gt;/resume
+POST /druid/indexer/v1/supervisor/resumeAll
+
+Reset
+https://druid.apache.org/docs/latest/operations/api-reference.html#post-5
+POST /druid/indexer/v1/supervisor/&lt;supervisorId&gt;/reset
+
+Stop
+https://druid.apache.org/docs/latest/operations/api-reference.html#post-5
+/druid/indexer/v1/supervisor/&lt;supervisorId&gt;/terminate
+/druid/indexer/v1/supervisor/terminateAll</div>
 					</div>
 					<div role="tabpanel" class="tab-pane" id="properties">
 						<table class="table table-striped table-hover table-condensed">
