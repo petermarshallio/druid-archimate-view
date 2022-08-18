@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Unoptimised data storage</title>
+	<title>Unoptimised source data</title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -22,7 +22,7 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Unoptimised data storage</b>
+               <b>Unoptimised source data</b>
 
             <!-- If a View with Viewpoint -->
 			   (<span class="i18n-elementtype-Assessment"></span>)
@@ -46,7 +46,7 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">When data is not organised for statistical processing, it can take up much more space than is needed, and be much slower than might be needed.
+						<div class="convertlinks documentation" style="white-space:pre-wrap">When data is not organised for statistical processing, it can take up much more space than is needed, and be much slower than might be needed.  This means not just that it's not columnarised, but that there are also no indexes (for both access and late materialization), and there may not be any intelligent compression applied.
 
 This is even the case, for databases that are meant to hold and provide statistics for time-series data - they're very fast for looking at events over a time frame, but found grouping and filtering over any other dimensions "aren't great".</div>
 					</div>
