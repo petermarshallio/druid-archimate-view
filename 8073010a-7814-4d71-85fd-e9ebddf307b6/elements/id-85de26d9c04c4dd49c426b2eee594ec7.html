@@ -2,7 +2,7 @@
 <html class="frame" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-	<title>Overlord Configuration Service</title>
+	<title>Overlord Management Service</title>
 
 	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) -->
 	<script type="text/javascript" src="../../lib/jquery/js/jquery-1.11.2.min.js"></script>
@@ -22,7 +22,7 @@
 
 		<div class="panel-heading root-panel-heading">
             <!-- Name -->
-               <b>Overlord Configuration Service</b>
+               <b>Overlord Management Service</b>
 
             <!-- If a View with Viewpoint -->
 			   (<span class="i18n-elementtype-TechnologyService"></span>)
@@ -46,13 +46,13 @@
 				<!-- Tab panes -->
 				<div class="tab-content">
 					<div role="tabpanel" class="tab-pane active" id="documentation">
-						<div class="convertlinks documentation" style="white-space:pre-wrap">Peek
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Check configuration
 https://druid.apache.org/docs/latest/operations/api-reference.html#dynamic-configuration
 GET /druid/indexer/v1/worker
 GET /druid/indexer/v1/worker/history?interval={interval}&amp;counter={count}
 GET /druid/indexer/v1/scaling
 
-Poke
+Set configuration
 https://druid.apache.org/docs/latest/operations/api-reference.html#dynamic-configuration
 POST /druid/indexer/v1/worker
 https://druid.apache.org/docs/latest/configuration/index.html#overlord-dynamic-configuration</div>
