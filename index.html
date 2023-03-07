@@ -1,34 +1,34 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html class="model" lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 	<title>Apache Druid</title>
 
-	<!-- JQUERY (use 1.x branch to be compatible with IE 6/7/8) / UI / LAYOUT -->
-	<script type="text/javascript" src="lib/jquery/js/jquery-1.11.2.min.js"></script>
-	<script type="text/javascript" src="lib/jquery-ui/js/jquery-ui-1.11.2.min.js"></script>
-	<script type="text/javascript" src="lib/jquery-ui-layout/js/jquery.layout-1.4.4.js"></script>
-	<link type="text/css" rel="stylesheet" href="lib/jquery-ui-layout/css/layout-default-1.4.4.css">
+	<!-- JQUERY / UI / LAYOUT -->
+	<script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="lib/jquery-ui-layout/jquery.layout-1.4.4.js"></script>
+	<link type="text/css" rel="stylesheet" href="lib/jquery-ui-layout/layout-default-1.4.4.css">
 	<!-- BOOTSTRAP -->
-	<link type="text/css" rel="stylesheet" href="lib/bootstrap/css/bootstrap-3.3.2.min.css">
-	<link type="text/css" rel="stylesheet" href="lib/bootstrap/css/bootstrap-theme-3.3.2.min.css">
+	<link type="text/css" rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.yeti.css">
 	<script type="text/javascript" src="lib/bootstrap/js/bootstrap-3.3.2.min.js"></script>
 	<!-- REPORT SPECIFIC -->
 	<link type="text/css" rel="stylesheet" href="css/model.css">
 	<link type="text/css" rel="stylesheet" href="css/i18n.css">
 	<script type="text/javascript" src="js/model.js"></script>
+	<script type="text/javascript" src="js/url-polyfill.min.js"></script>
 </head>
 
 <body>
 	<!-- "ui-layout-north" class set (topbar) -->
 	<div class="ui-layout-north">
-		<nav class="navbar navbar-default">
+		<nav class="navbar navbar-inverse">
 			<div class="navbar-header">
 				<span class="navbar-brand">Apache Druid</span>
 			</div>
 			<div class="collapse navbar-collapse">
 				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#myModal" data-toggle="modal" class="btn go"><span class="i18n-about"></span></a></li>
+					<li><a href="#myModal" data-toggle="modal" class="go"><span class="i18n-about"></span></a></li>
 				</ul>
 			</div>
 		</nav>
@@ -47,206 +47,206 @@
 					<b><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/model.html" target="view">Apache Druid</a></b>
 					<ul class="tree">
 					<!-- START OF STRINGTEMPLATE CODE -->
-						<li><span class="i18n-model_content"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+						<li class="tree-folder sorted"><span class="i18n-model_content"><i class="glyphicon glyphicon-triangle-right"></i> </span>
 							<ul>
-                                <li><span class="i18n-strategy"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+                                <li class="tree-folder "><span class="i18n-strategy"><i class="glyphicon glyphicon-triangle-right"></i> </span>
                                     <ul>
                                     </ul>
                                 </li>
-								<li><span class="i18n-business_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+								<li class="tree-folder "><span class="i18n-business_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
 									<ul>
-										<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Roles &amp; Functions </span>
+										<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Roles &amp; Functions </span>
 											<ul>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/0611b164-f4a6-4d48-a226-85765df19ea9.html" target="element"> Knowledge Management [KNOW] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5d041ab2-30aa-4328-a4c5-189318e9d6e5.html" target="element"> Service Level Management [SLMO] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/2b828014-7616-4098-b049-2d06c1ff1870.html" target="element"> Capacity Management [CPMG] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/2bfe2580-8025-483f-860f-d65754772a18.html" target="element"> Network Design [NTSD] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/cef0555b-45e4-47ff-b36b-0b45b2971830.html" target="element"> Service Acceptance [SEAC] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/60ededbe-4300-4cd6-a85f-cb19cbc8130d.html" target="element"> Application Support [ASUP] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f06b0e86-dc52-4374-b8fa-fafd852e2a8a.html" target="element"> Database Design [DBDS] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/fcbc8a92-60fa-4774-9729-9cd700a577a2.html" target="element"> Incident Management [USUP] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6e524714-b76c-4aa1-912c-1c7ca0ce765f.html" target="element"> Sales Support [SSUP] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/dfd28388-5c1b-4c24-9e95-4cd36673709d.html" target="element"> Programming / Software Development [PROG] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/9be66c6c-7a77-49c1-98a0-47de59c8fd3f.html" target="element"> Project Management [PRMG] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/3556d77e-8723-465d-a77a-41dc7361a2a3.html" target="element"> Data Modelling &amp; Design [DTAN] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/96f4f02e-d7fa-483e-949d-aab8f602af3e.html" target="element"> Relationship Management [RLMT] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/eb23dc82-ea4f-45e9-8b3f-21cb683140d2.html" target="element"> Consultancy [CNSL] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7ec3e866-bc88-47d9-a104-ec62508aec7f.html" target="element"> Release &amp; Deployment [RELM] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/481446ed-3bdc-4c40-bf7d-c1924d3758ea.html" target="element"> Community Engagement </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a8d74edc-4b19-4828-9f46-2518205b8df6.html" target="element"> Data Management [DATM] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a73c30c4-2492-49e7-b5b2-b8a7d36c33e1.html" target="element"> Marketing [MKTG] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7202c40b-9755-46b4-8e09-f98f7441a1cd.html" target="element"> Selling [SALE] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/d0891d8a-1646-4d2c-9a94-7373ec78d2d3.html" target="element"> Learning Delivery [ETDL] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/83bf1e68-2424-419b-a96f-89c1b34c8304.html" target="element"> Systems Design [DESN] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/2b162eca-d266-475e-b329-e61bb4a8e684.html" target="element"> Systems installation / decommissioning [HSIN] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a656d2f9-94d1-42d5-bfa9-160c7975b0cd.html" target="element"> Configuration management [CFMG] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7ee0c8ad-c9fe-4330-8470-d0e500cb43e1.html" target="element"> Solution Architecture [ARCH] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/1094f3cb-0724-4c14-ba48-f7690b0e4d8d.html" target="element"> Product Management [PROD] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/71cbc807-be34-4db2-ae78-0bdacb9e5c33.html" target="element"> Specialist Advice [TECH] </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6dbf0f3c-0375-4eca-a418-909688fb496f.html" target="element"> Customer Service Support [CSMG] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/0611b164-f4a6-4d48-a226-85765df19ea9.html" target="element"> Knowledge Management [KNOW] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5d041ab2-30aa-4328-a4c5-189318e9d6e5.html" target="element"> Service Level Management [SLMO] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/2b828014-7616-4098-b049-2d06c1ff1870.html" target="element"> Capacity Management [CPMG] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/2bfe2580-8025-483f-860f-d65754772a18.html" target="element"> Network Design [NTSD] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/cef0555b-45e4-47ff-b36b-0b45b2971830.html" target="element"> Service Acceptance [SEAC] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/60ededbe-4300-4cd6-a85f-cb19cbc8130d.html" target="element"> Application Support [ASUP] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f06b0e86-dc52-4374-b8fa-fafd852e2a8a.html" target="element"> Database Design [DBDS] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/fcbc8a92-60fa-4774-9729-9cd700a577a2.html" target="element"> Incident Management [USUP] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6e524714-b76c-4aa1-912c-1c7ca0ce765f.html" target="element"> Sales Support [SSUP] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/dfd28388-5c1b-4c24-9e95-4cd36673709d.html" target="element"> Programming / Software Development [PROG] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/9be66c6c-7a77-49c1-98a0-47de59c8fd3f.html" target="element"> Project Management [PRMG] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/3556d77e-8723-465d-a77a-41dc7361a2a3.html" target="element"> Data Modelling &amp; Design [DTAN] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/96f4f02e-d7fa-483e-949d-aab8f602af3e.html" target="element"> Relationship Management [RLMT] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/eb23dc82-ea4f-45e9-8b3f-21cb683140d2.html" target="element"> Consultancy [CNSL] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7ec3e866-bc88-47d9-a104-ec62508aec7f.html" target="element"> Release &amp; Deployment [RELM] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/481446ed-3bdc-4c40-bf7d-c1924d3758ea.html" target="element"> Community Engagement </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a8d74edc-4b19-4828-9f46-2518205b8df6.html" target="element"> Data Management [DATM] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a73c30c4-2492-49e7-b5b2-b8a7d36c33e1.html" target="element"> Marketing [MKTG] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7202c40b-9755-46b4-8e09-f98f7441a1cd.html" target="element"> Selling [SALE] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/d0891d8a-1646-4d2c-9a94-7373ec78d2d3.html" target="element"> Learning Delivery [ETDL] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/83bf1e68-2424-419b-a96f-89c1b34c8304.html" target="element"> Systems Design [DESN] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/2b162eca-d266-475e-b329-e61bb4a8e684.html" target="element"> Systems installation / decommissioning [HSIN] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a656d2f9-94d1-42d5-bfa9-160c7975b0cd.html" target="element"> Configuration management [CFMG] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7ee0c8ad-c9fe-4330-8470-d0e500cb43e1.html" target="element"> Solution Architecture [ARCH] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/1094f3cb-0724-4c14-ba48-f7690b0e4d8d.html" target="element"> Product Management [PROD] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/71cbc807-be34-4db2-ae78-0bdacb9e5c33.html" target="element"> Specialist Advice [TECH] </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6dbf0f3c-0375-4eca-a418-909688fb496f.html" target="element"> Customer Service Support [CSMG] </a></li>
 
 											</ul>
 											</li>
 									</ul>
 								</li>
-								<li><span class="i18n-application_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+								<li class="tree-folder "><span class="i18n-application_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
 									<ul>
-										<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Services and Interfaces </span>
+										<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Services and Interfaces </span>
 											<ul>
 											</ul>
-											</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Functions and Interactions </span>
+											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Functions and Interactions </span>
 											<ul>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2a6160dc4a7648c491bee55950745562.html" target="element"> Perform TOPN analytics </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-34b45162e84442e8920a4a6a32ceedeb.html" target="element"> Ingest Data Streams </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-ac74aaa19807430d9f197a441c32a532.html" target="element"> Ingest Batch Data </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5cca83e6b5f6427da6aca6f558cbff6c.html" target="element"> Reindex Data </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-65c6f1a56f75467a914a43f809cf1d40.html" target="element"> Perform TIMESCAN analytics </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-df8886099a824d9b99faf67ae357eb68.html" target="element"> Ingest Data Streams </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b1a578e235884f4085dc71d7434759b1.html" target="element"> Initiate Data Tiering </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-19d1aeebc4a44b3e82a09cc1228c67a4.html" target="element"> Ingest Batch Data </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e251dfde166140c9ab83a7712eaba5e1.html" target="element"> Perform GROUP BY analytics </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fa4ec13c141f4d14a79542495af5fef6.html" target="element"> Reindex Data </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2a6160dc4a7648c491bee55950745562.html" target="element"> Perform TOPN analytics </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-34b45162e84442e8920a4a6a32ceedeb.html" target="element"> Ingest Data Streams </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-ac74aaa19807430d9f197a441c32a532.html" target="element"> Ingest Batch Data </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5cca83e6b5f6427da6aca6f558cbff6c.html" target="element"> Reindex Data </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-65c6f1a56f75467a914a43f809cf1d40.html" target="element"> Perform TIMESCAN analytics </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-df8886099a824d9b99faf67ae357eb68.html" target="element"> Ingest Data Streams </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b1a578e235884f4085dc71d7434759b1.html" target="element"> Initiate Data Tiering </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-19d1aeebc4a44b3e82a09cc1228c67a4.html" target="element"> Ingest Batch Data </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e251dfde166140c9ab83a7712eaba5e1.html" target="element"> Perform GROUP BY analytics </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fa4ec13c141f4d14a79542495af5fef6.html" target="element"> Reindex Data </a></li>
 
 											</ul>
-											</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Components and Collaborations </span>
+											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Components and Collaborations </span>
 											<ul>
 											</ul>
-											</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Objects </span>
+											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Objects </span>
 											<ul>
 											</ul>
 											</li>
 									</ul>
 								</li>
-								<li><span class="i18n-technology_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+								<li class="tree-folder "><span class="i18n-technology_layer"><i class="glyphicon glyphicon-triangle-right"></i> </span>
 									<ul>
-										<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Active </span>
+										<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Active </span>
 											<ul>
-												<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Interfaces </span>
+												<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Interfaces </span>
 													<ul>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3d6dbecdd5e7490093c8bbf5121c13aa.html" target="element"> Overlord (Indexer) REST API </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-8263afa580684f15b0d84e1c4e815cb6.html" target="element"> Broker REST API </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-514e3b0264b74e3b899deb0dc32bc4cd.html" target="element"> Coordinator REST API </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/81789fe5-cc44-4a46-b3a4-46b02c951fca.html" target="element"> Overlord Commands API </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/0903a058-8c6e-41a8-ba25-701750c9ff0d.html" target="element"> Historical Query API </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fc0517dbb9e14d189f786d2a73d26d2e.html" target="element"> Status REST API </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c001af8b96b24f1e9b61eb8b7f4eb675.html" target="element"> Historical REST API </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e2b2b358-3d2e-493a-a90a-0c9adf72c1e5.html" target="element"> MiddleManager Task (Peon) REST API </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5fc450bf45ad4689a528650170600fe7.html" target="element"> MiddleManager REST API </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-acb19922b5ff443a9d2aec0a2ecfa289.html" target="element"> Router REST API </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3d6dbecdd5e7490093c8bbf5121c13aa.html" target="element"> Overlord (Indexer) REST API </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-8263afa580684f15b0d84e1c4e815cb6.html" target="element"> Broker REST API </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-514e3b0264b74e3b899deb0dc32bc4cd.html" target="element"> Coordinator REST API </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/81789fe5-cc44-4a46-b3a4-46b02c951fca.html" target="element"> Overlord Commands API </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/0903a058-8c6e-41a8-ba25-701750c9ff0d.html" target="element"> Historical Query API </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fc0517dbb9e14d189f786d2a73d26d2e.html" target="element"> Status REST API </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c001af8b96b24f1e9b61eb8b7f4eb675.html" target="element"> Historical REST API </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e2b2b358-3d2e-493a-a90a-0c9adf72c1e5.html" target="element"> MiddleManager Task (Peon) REST API </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5fc450bf45ad4689a528650170600fe7.html" target="element"> MiddleManager REST API </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-acb19922b5ff443a9d2aec0a2ecfa289.html" target="element"> Router REST API </a></li>
 
 													</ul>
-													</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Collaborations </span>
+													</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Collaborations </span>
 													<ul>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5860219f-ba7d-492f-b8c7-f617474dc6a1.html" target="element"> Data Assignment and Balance </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/59942e93-1291-4fe7-a4ea-9e08291e9d7b.html" target="element"> Data Ingestion </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/91219c75-f10c-492e-a88f-88e82f25a2eb.html" target="element"> Data Query </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5860219f-ba7d-492f-b8c7-f617474dc6a1.html" target="element"> Data Assignment and Balance </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/59942e93-1291-4fe7-a4ea-9e08291e9d7b.html" target="element"> Data Ingestion </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/91219c75-f10c-492e-a88f-88e82f25a2eb.html" target="element"> Data Query </a></li>
 
 													</ul>
-													</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Nodes </span>
+													</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Nodes </span>
 													<ul>
-														<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Standard Nodes </span>
+														<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Standard Nodes </span>
 															<ul>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/929f56c0-f846-41ec-8b23-b3dbcc9ee638.html" target="element"> Data Server </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f80ad44c-38bc-48e5-b40a-2238193ea023.html" target="element"> Query Server </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7e465ba2-74fb-4be5-bab8-901a3a17ee89.html" target="element"> Master Server </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/929f56c0-f846-41ec-8b23-b3dbcc9ee638.html" target="element"> Data Server </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f80ad44c-38bc-48e5-b40a-2238193ea023.html" target="element"> Query Server </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7e465ba2-74fb-4be5-bab8-901a3a17ee89.html" target="element"> Master Server </a></li>
 
 															</ul>
-															</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Dependencies </span>
+															</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Dependencies </span>
 															<ul>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9eedba38b6344b909a7e65c806c8052c.html" target="element"> Metadata Database </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b70040eb793d491a96b33df0c85b02cc.html" target="element"> Deep Store </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-03d373afb21e4a138b2835d802b89c39.html" target="element"> Zookeeper </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9eedba38b6344b909a7e65c806c8052c.html" target="element"> Metadata Database </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b70040eb793d491a96b33df0c85b02cc.html" target="element"> Deep Store </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-03d373afb21e4a138b2835d802b89c39.html" target="element"> Zookeeper </a></li>
 
 															</ul>
-															</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Apache Druid </span>
+															</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Apache Druid </span>
 															<ul>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f23e63ee792840a8b8fe6cf0209b025a.html" target="element"> Overlord </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b85b3fd0483a40fea5937f7cf2fbabfc.html" target="element"> Coordinator </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fb17dfbe14094224b2dd5046a7c900a4.html" target="element"> Broker </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-605a049d101748279862c29ab3589e33.html" target="element"> Historical </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a40dcb5904d14e81818b2d1c39593fe3.html" target="element"> MiddleManager Task </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7795a60fae814562a47a02b42ce4677b.html" target="element"> MiddleManager </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b2808dcd860244fab5b2cee20fb6be33.html" target="element"> Router </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f23e63ee792840a8b8fe6cf0209b025a.html" target="element"> Overlord </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b85b3fd0483a40fea5937f7cf2fbabfc.html" target="element"> Coordinator </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fb17dfbe14094224b2dd5046a7c900a4.html" target="element"> Broker </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-605a049d101748279862c29ab3589e33.html" target="element"> Historical </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a40dcb5904d14e81818b2d1c39593fe3.html" target="element"> MiddleManager Task </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7795a60fae814562a47a02b42ce4677b.html" target="element"> MiddleManager </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b2808dcd860244fab5b2cee20fb6be33.html" target="element"> Router </a></li>
 
 															</ul>
-															</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Optional </span>
+															</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Optional </span>
 															<ul>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ee610904-3672-4229-b80f-587a8fded7bb.html" target="element"> Load Balancer </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ee610904-3672-4229-b80f-587a8fded7bb.html" target="element"> Load Balancer </a></li>
 
 															</ul>
 															</li>
 													</ul>
 													</li>
 											</ul>
-											</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Objects </span>
+											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Objects </span>
 											<ul>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/953f5d8a-ed01-4c51-b53b-639ae7810476.html" target="element"> druid </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/936f04be-2edb-4a0d-a862-e2a34ce8a127.html" target="element"> Published Services </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2d96f1c7bf7142a693352f5ab494ce2e.html" target="element"> Source Data </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-68fcb10cda954505b000c59ff7b67199.html" target="element"> Leader Election Latch </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/0ed311d3-871a-4b53-8337-50aee4bc2daa.html" target="element"> Published Segments </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b9babf5c-ce91-41cc-a3b3-8659e7f3366e.html" target="element"> Load Queue </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4ec5b768-331b-4c13-9bf7-97514ee43222.html" target="element"> Metadata Database Cache </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/9175fdbe-2782-4958-b648-50a206d9c133.html" target="element"> Overlord Cluster Snapshot </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7d5ea31a-3e7c-4d22-aac2-a59692dd767d.html" target="element"> Metadata Database </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7861c163-6fb5-47f8-8dc1-ba872ac5fe1d.html" target="element"> Deep Storage </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e3271604-66af-4393-9148-37e129582fb6.html" target="element"> Coordinator Segment Announcements Cache </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6c6759bf-fc3d-4a7f-92f5-6bb7272c4303.html" target="element"> Broker Segment Announcements Cache </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a1b78133-5bd0-4900-872e-0a3698a708be.html" target="element"> Ingestion Work Queues </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-0a51271a5db14e15917f30a512386f49.html" target="element"> Payload </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/953f5d8a-ed01-4c51-b53b-639ae7810476.html" target="element"> druid </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/936f04be-2edb-4a0d-a862-e2a34ce8a127.html" target="element"> Published Services </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2d96f1c7bf7142a693352f5ab494ce2e.html" target="element"> Source Data </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-68fcb10cda954505b000c59ff7b67199.html" target="element"> Leader Election Latch </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/0ed311d3-871a-4b53-8337-50aee4bc2daa.html" target="element"> Published Segments </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b9babf5c-ce91-41cc-a3b3-8659e7f3366e.html" target="element"> Load Queue </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4ec5b768-331b-4c13-9bf7-97514ee43222.html" target="element"> Metadata Database Cache </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/9175fdbe-2782-4958-b648-50a206d9c133.html" target="element"> Overlord Cluster Snapshot </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7d5ea31a-3e7c-4d22-aac2-a59692dd767d.html" target="element"> Metadata Database </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7861c163-6fb5-47f8-8dc1-ba872ac5fe1d.html" target="element"> Deep Storage </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e3271604-66af-4393-9148-37e129582fb6.html" target="element"> Coordinator Segment Announcements Cache </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6c6759bf-fc3d-4a7f-92f5-6bb7272c4303.html" target="element"> Broker Segment Announcements Cache </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a1b78133-5bd0-4900-872e-0a3698a708be.html" target="element"> Ingestion Work Queues </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-0a51271a5db14e15917f30a512386f49.html" target="element"> Payload </a></li>
 
 											</ul>
-											</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Behaviour </span>
+											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Behaviour </span>
 											<ul>
-												<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Functions </span>
+												<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Functions </span>
 													<ul>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-908f53e3ef73408998aeaad16695f0ec.html" target="element"> Data Ingestion Leadership </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-92131efde5c14ec7adfc69322abdc3e3.html" target="element"> Data Ingestion </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f494193556344d07b05d2189b4874137.html" target="element"> Apply Ingestion Rules </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-908f53e3ef73408998aeaad16695f0ec.html" target="element"> Data Ingestion Leadership </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-92131efde5c14ec7adfc69322abdc3e3.html" target="element"> Data Ingestion </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f494193556344d07b05d2189b4874137.html" target="element"> Apply Ingestion Rules </a></li>
 
 													</ul>
-													</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Interactions </span>
+													</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Interactions </span>
 													<ul>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-097f729c112c4fb69f9aec9014e0813b.html" target="element"> Query Data </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-42f44928b1f94fcfb84a1100f135a2b1.html" target="element"> Ingest Data </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-097f729c112c4fb69f9aec9014e0813b.html" target="element"> Query Data </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-42f44928b1f94fcfb84a1100f135a2b1.html" target="element"> Ingest Data </a></li>
 
 													</ul>
-													</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Processes </span>
+													</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Processes </span>
 													<ul>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5c817b311d9a4adf84e71441f6030d9c.html" target="element"> Overlord Streaming Task Supervisor </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4e23113cd7444610ba469e149105ca92.html" target="element"> Ingest from some Objects </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-ed96571749ec4e0e81fae1328447643b.html" target="element"> Overlord Task Monitor </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-75a3d0320c3e4713b85d454a3f17ab79.html" target="element"> Persist to deep store </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a0a5cc00a20447b7bb18ca36ee12eec3.html" target="element"> Coordinator Management Loop </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2e7406199dce46bba8236fae5da462fb.html" target="element"> Overlord Task Master </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-def05740e4f542c4b480921ab0a982c7.html" target="element"> Monitor some Batch Ingests </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c58fe9a2b07a4b3294cd03a921a37fe6.html" target="element"> Overlord Remote Task Issuer </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9fdaadfb83d24a24b5ed71a785235f6e.html" target="element"> Publish to mddb </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-efeac722342145f6b032909219561e38.html" target="element"> Ingest from a Stream </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7e05c188bcfa46bf895e6e21c85b3415.html" target="element"> Split into subtasks </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5c817b311d9a4adf84e71441f6030d9c.html" target="element"> Overlord Streaming Task Supervisor </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4e23113cd7444610ba469e149105ca92.html" target="element"> Ingest from some Objects </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-ed96571749ec4e0e81fae1328447643b.html" target="element"> Overlord Task Monitor </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-75a3d0320c3e4713b85d454a3f17ab79.html" target="element"> Persist to deep store </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a0a5cc00a20447b7bb18ca36ee12eec3.html" target="element"> Coordinator Management Loop </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2e7406199dce46bba8236fae5da462fb.html" target="element"> Overlord Task Master </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-def05740e4f542c4b480921ab0a982c7.html" target="element"> Monitor some Batch Ingests </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c58fe9a2b07a4b3294cd03a921a37fe6.html" target="element"> Overlord Remote Task Issuer </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9fdaadfb83d24a24b5ed71a785235f6e.html" target="element"> Publish to mddb </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-efeac722342145f6b032909219561e38.html" target="element"> Ingest from a Stream </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7e05c188bcfa46bf895e6e21c85b3415.html" target="element"> Split into subtasks </a></li>
 
 													</ul>
-													</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Services </span>
+													</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Services </span>
 													<ul>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1d14f8dc723e45f1b48f73739a702c66.html" target="element"> Health Monitoring </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-36d42ab2f87e46d6a34cbc3eb10306db.html" target="element"> Data Deletion Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-937d41e6542e4965b073125d032fd4fb.html" target="element"> Overlord Leadership Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bc457602439946cf82619418b0affb5e.html" target="element"> Coordinator Leadership Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-13992cc480814fe6978ccbb853550531.html" target="element"> Discovery Monitoring </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-27dbdc8977a24041bc08f04f2da398d2.html" target="element"> Data Distribution Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c9c5026dd39047d491d72cd7901b9349.html" target="element"> Broker Data Information Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d73737d2f6a841328608040bb8d75cd2.html" target="element"> Broker Readiness Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/25d02e0f-1ffe-4a5e-bc8d-6718b603ab17.html" target="element"> Streaming Ingestion Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4690dd83232e4b749cb0d6a5586f2ed5.html" target="element"> Compaction Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-85de26d9c04c4dd49c426b2eee594ec7.html" target="element"> Overlord Management Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6972f2156ce04663941a2d7e61d5e979.html" target="element"> Task Information Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9adb0b4f5800419aa2ac1a79066157ad.html" target="element"> MiddleManager Task Control Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f0dba0ba9e344a20b06985610b45cee3.html" target="element"> Configuration Monitoring </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2dd850547c464dd6b72ba0d5f706c7eb.html" target="element"> Distributed Query Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f5d54f60a4bd40a7a37a7aa6a849ff0b.html" target="element"> Batch Ingestion Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6347386f827445719474faa2b5d3a64b.html" target="element"> MiddleManager Management Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-47f9c1ebaeac4387ba1e3c9445ec3c41.html" target="element"> Historical Status Service </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bc19479673b845c583b6e3295886ea77.html" target="element"> Router Data Information Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1d14f8dc723e45f1b48f73739a702c66.html" target="element"> Health Monitoring </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-36d42ab2f87e46d6a34cbc3eb10306db.html" target="element"> Data Deletion Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-937d41e6542e4965b073125d032fd4fb.html" target="element"> Overlord Leadership Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bc457602439946cf82619418b0affb5e.html" target="element"> Coordinator Leadership Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-13992cc480814fe6978ccbb853550531.html" target="element"> Discovery Monitoring </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-27dbdc8977a24041bc08f04f2da398d2.html" target="element"> Data Distribution Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c9c5026dd39047d491d72cd7901b9349.html" target="element"> Broker Data Information Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d73737d2f6a841328608040bb8d75cd2.html" target="element"> Broker Readiness Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/25d02e0f-1ffe-4a5e-bc8d-6718b603ab17.html" target="element"> Streaming Ingestion Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4690dd83232e4b749cb0d6a5586f2ed5.html" target="element"> Compaction Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-85de26d9c04c4dd49c426b2eee594ec7.html" target="element"> Overlord Management Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6972f2156ce04663941a2d7e61d5e979.html" target="element"> Task Information Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9adb0b4f5800419aa2ac1a79066157ad.html" target="element"> MiddleManager Task Control Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f0dba0ba9e344a20b06985610b45cee3.html" target="element"> Configuration Monitoring </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2dd850547c464dd6b72ba0d5f706c7eb.html" target="element"> Distributed Query Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f5d54f60a4bd40a7a37a7aa6a849ff0b.html" target="element"> Batch Ingestion Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6347386f827445719474faa2b5d3a64b.html" target="element"> MiddleManager Management Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-47f9c1ebaeac4387ba1e3c9445ec3c41.html" target="element"> Historical Status Service </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bc19479673b845c583b6e3295886ea77.html" target="element"> Router Data Information Service </a></li>
 
 													</ul>
 													</li>
@@ -254,811 +254,811 @@
 											</li>
 									</ul>
 								</li>
-								<li><span class="i18n-motivation"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+								<li class="tree-folder "><span class="i18n-motivation"><i class="glyphicon glyphicon-triangle-right"></i> </span>
 									<ul>
-										<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Stakeholders </span>
+										<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Stakeholders </span>
 											<ul>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8ae594f2-4170-4016-82f6-3472ea781542.html" target="element"> Enterprise Architects </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f8631612-0650-49ad-8bda-dd4e03bd15cb.html" target="element"> Product Owners </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8ae594f2-4170-4016-82f6-3472ea781542.html" target="element"> Enterprise Architects </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f8631612-0650-49ad-8bda-dd4e03bd15cb.html" target="element"> Product Owners </a></li>
 
 											</ul>
-											</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Assessments </span>
+											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Assessments </span>
 											<ul>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/94c26023-8ad2-4792-b606-b4b514a51ed1.html" target="element"> Constraints on the delivery of statistics </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6272f7cb-524c-4593-8b49-47095ac73b04.html" target="element"> Limits on access </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/d91e20d1-8f40-4948-8c8c-288bfce8772f.html" target="element"> Unoptimised source data </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/bc61737a-d699-4bbb-aa28-3f300a354da8.html" target="element"> Unwieldy volumes of queryable data </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4fbcda3e-f614-4c59-aa53-2a5b2d4576de.html" target="element"> Data needs to be curated first </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/714428bc-2f0d-457a-a172-441519cf2757.html" target="element"> Lack of skills </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/44c30722-607f-4525-91df-6c99d351cb60.html" target="element"> Limits on dimensions and rows </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6f2e5138-56fe-454f-af44-3a7813e056bc.html" target="element"> Limits on possible calculations </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/be8967ad-c7d1-4fd0-aad0-5400aca1da3d.html" target="element"> Differentiation is unclear </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ea876e1b-7f64-4197-9acd-eea6377a1403.html" target="element"> Competitors can access the same skills </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/1cbec3ce-6ce6-4c4f-acf8-d021c07b6252.html" target="element"> Successful integration of new tools </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/d3da0d6c-0589-4c34-8259-1dde32fa9c38.html" target="element"> Stifled business adaptation </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/cb4bd359-139e-4952-9be1-9997721e968e.html" target="element"> Fear of little-to-no info mgmt </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/31f4c633-a96f-4e82-84de-b34fa275468b.html" target="element"> Tendency of data to get bigger </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/9bbaf8f9-8830-4396-8387-2bfb6f978bf6.html" target="element"> Perceived immaturity </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4dc2788a-211a-441b-9b72-7c228fe68708.html" target="element"> Ingestion has to finish first </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/94c26023-8ad2-4792-b606-b4b514a51ed1.html" target="element"> Constraints on the delivery of statistics </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6272f7cb-524c-4593-8b49-47095ac73b04.html" target="element"> Limits on access </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/d91e20d1-8f40-4948-8c8c-288bfce8772f.html" target="element"> Unoptimised source data </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/bc61737a-d699-4bbb-aa28-3f300a354da8.html" target="element"> Unwieldy volumes of queryable data </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4fbcda3e-f614-4c59-aa53-2a5b2d4576de.html" target="element"> Data needs to be curated first </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/714428bc-2f0d-457a-a172-441519cf2757.html" target="element"> Lack of skills </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/44c30722-607f-4525-91df-6c99d351cb60.html" target="element"> Limits on dimensions and rows </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6f2e5138-56fe-454f-af44-3a7813e056bc.html" target="element"> Limits on possible calculations </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/be8967ad-c7d1-4fd0-aad0-5400aca1da3d.html" target="element"> Differentiation is unclear </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ea876e1b-7f64-4197-9acd-eea6377a1403.html" target="element"> Competitors can access the same skills </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/1cbec3ce-6ce6-4c4f-acf8-d021c07b6252.html" target="element"> Successful integration of new tools </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/d3da0d6c-0589-4c34-8259-1dde32fa9c38.html" target="element"> Stifled business adaptation </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/cb4bd359-139e-4952-9be1-9997721e968e.html" target="element"> Fear of little-to-no info mgmt </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/31f4c633-a96f-4e82-84de-b34fa275468b.html" target="element"> Tendency of data to get bigger </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/9bbaf8f9-8830-4396-8387-2bfb6f978bf6.html" target="element"> Perceived immaturity </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4dc2788a-211a-441b-9b72-7c228fe68708.html" target="element"> Ingestion has to finish first </a></li>
 
 											</ul>
-											</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Drivers </span>
+											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Drivers </span>
 											<ul>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b4910330-894e-45cb-996c-07d5627d212e.html" target="element"> Lean differentiation </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/29c0dfe5-8428-4bc9-bf1d-92052eb7c00e.html" target="element"> Satisfy Customers </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7efbdc77-3e9e-426e-ad04-9b7aac40e128.html" target="element"> Operational Efficiency </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/34e7068e-b004-41d9-9b05-46693b5d6aaf.html" target="element"> Agile Business </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f9eb33eb-aabe-4e70-be07-23b9988f03fe.html" target="element"> Market Share </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/3473e21e-c7e8-4185-aafb-39e5ce6dc491.html" target="element"> Use Good Technology </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b4910330-894e-45cb-996c-07d5627d212e.html" target="element"> Lean differentiation </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/29c0dfe5-8428-4bc9-bf1d-92052eb7c00e.html" target="element"> Satisfy Customers </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7efbdc77-3e9e-426e-ad04-9b7aac40e128.html" target="element"> Operational Efficiency </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/34e7068e-b004-41d9-9b05-46693b5d6aaf.html" target="element"> Agile Business </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f9eb33eb-aabe-4e70-be07-23b9988f03fe.html" target="element"> Market Share </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/3473e21e-c7e8-4185-aafb-39e5ce6dc491.html" target="element"> Use Good Technology </a></li>
 
 											</ul>
-											</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Goals </span>
+											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Goals </span>
 											<ul>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6da8b0d9-c0e3-4829-ad9f-dadb48a1b6f2.html" target="element"> Adopt loosely-coupled / shared nothing architecture </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/213334d1-1fc1-4387-a118-7883aa3ffcb9.html" target="element"> Use a data store that can grow and change easilly </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a18b41bd-ebe0-448a-845c-74099ea3629c.html" target="element"> Adopt a DB that has governance embedded </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/86a8c133-75e8-479a-bd8b-8fa6708836f8.html" target="element"> Use a proven, supported tool </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/aa622e1a-4712-4f95-89a9-2978a43b38a8.html" target="element"> Optimize source data for query execution </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/d7cf71b4-995f-40b0-a6da-12425b3280db.html" target="element"> Choose an evolution, not a recreation </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/44edf6b3-3d5d-4ba7-ada9-a28b45027ca9.html" target="element"> Query real-time data directly </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6da8b0d9-c0e3-4829-ad9f-dadb48a1b6f2.html" target="element"> Adopt loosely-coupled / shared nothing architecture </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/213334d1-1fc1-4387-a118-7883aa3ffcb9.html" target="element"> Use a data store that can grow and change easilly </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a18b41bd-ebe0-448a-845c-74099ea3629c.html" target="element"> Adopt a DB that has governance embedded </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/86a8c133-75e8-479a-bd8b-8fa6708836f8.html" target="element"> Use a proven, supported tool </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/aa622e1a-4712-4f95-89a9-2978a43b38a8.html" target="element"> Optimize source data for query execution </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/d7cf71b4-995f-40b0-a6da-12425b3280db.html" target="element"> Choose an evolution, not a recreation </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/44edf6b3-3d5d-4ba7-ada9-a28b45027ca9.html" target="element"> Query real-time data directly </a></li>
 
 											</ul>
 											</li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b9abcf751d6f465f9eae9543e8054648.html" target="element"> Fear of complicated integrations </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-009fcaf93988452386b9c230e4fdeeb8.html" target="element"> More data = more computation </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c3bb21501fad4a8e893be9b0b0971280.html" target="element"> Use MPP + colocation to calculate stats on the fly </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c5039da77ebf498ca0ff5dbfef827891.html" target="element"> Pre-processing takes time </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4de50911d08b46aabe19393b58f295d1.html" target="element"> Use approximation </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-24d209a505ce44a58fd330800231d722.html" target="element"> Security of the application </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6ee26dd3ef4a4d6cb3503a33e6e600bb.html" target="element"> Source data is not next to the query engine </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e5f2fdfb6c84469a834d138d28cb8905.html" target="element"> Broaden the audience for data </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9bb83725dc8d436db0e2f4ad1d419e9d.html" target="element"> Give a richer data exploration experience </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bd3f892bded0479dad027de13abe23aa.html" target="element"> Evolve schemas over time </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d862c842c7194201b7028ff10c9eede5.html" target="element"> Scale data storage on the fly </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-cb3f2b798cbc4a74acd4387dd816b616.html" target="element"> Scale and tier query capability to need </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-964205831f564db89644b25ba2d9215a.html" target="element"> Scale ingestion according to need </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-ba75b235913c47029c581727b6c25d16.html" target="element"> Source data size and shape changes </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c479f25d9a5545f3aa24303334248226.html" target="element"> Build robust back-end services </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c90222c981944d5e9a01b77e0297ac11.html" target="element"> Automatically control historical data available </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bc9bb0a4c4cd4b048c0e3525d0985c88.html" target="element"> Different sources for historical and real-time </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a6e1c20ea27041729c6045c6b35870fd.html" target="element"> Give a consistent data view </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b995c0c2ebcd44ac9ffa05b043a6bcb1.html" target="element"> Maintain the user's attention </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d47303f44e5240d9af2528cc4283e74e.html" target="element"> Respond to evolving UI demands </a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6e5cb392fa7e4fc686ee25405136c87a.html" target="element"> Scale to meet service demand </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b9abcf751d6f465f9eae9543e8054648.html" target="element"> Fear of complicated integrations </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-009fcaf93988452386b9c230e4fdeeb8.html" target="element"> More data = more computation </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c3bb21501fad4a8e893be9b0b0971280.html" target="element"> Use MPP + colocation to calculate stats on the fly </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c5039da77ebf498ca0ff5dbfef827891.html" target="element"> Pre-processing takes time </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4de50911d08b46aabe19393b58f295d1.html" target="element"> Use approximation </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-24d209a505ce44a58fd330800231d722.html" target="element"> Security of the application </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6ee26dd3ef4a4d6cb3503a33e6e600bb.html" target="element"> Source data is not next to the query engine </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e5f2fdfb6c84469a834d138d28cb8905.html" target="element"> Broaden the audience for data </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9bb83725dc8d436db0e2f4ad1d419e9d.html" target="element"> Give a richer data exploration experience </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bd3f892bded0479dad027de13abe23aa.html" target="element"> Evolve schemas over time </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d862c842c7194201b7028ff10c9eede5.html" target="element"> Scale data storage on the fly </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-cb3f2b798cbc4a74acd4387dd816b616.html" target="element"> Scale and tier query capability to need </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-964205831f564db89644b25ba2d9215a.html" target="element"> Scale ingestion according to need </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-ba75b235913c47029c581727b6c25d16.html" target="element"> Source data size and shape changes </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c479f25d9a5545f3aa24303334248226.html" target="element"> Build robust back-end services </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c90222c981944d5e9a01b77e0297ac11.html" target="element"> Automatically control historical data available </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bc9bb0a4c4cd4b048c0e3525d0985c88.html" target="element"> Different sources for historical and real-time </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a6e1c20ea27041729c6045c6b35870fd.html" target="element"> Give a consistent data view </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b995c0c2ebcd44ac9ffa05b043a6bcb1.html" target="element"> Maintain the user's attention </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d47303f44e5240d9af2528cc4283e74e.html" target="element"> Respond to evolving UI demands </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6e5cb392fa7e4fc686ee25405136c87a.html" target="element"> Scale to meet service demand </a></li>
 
 									</ul>
 								</li>
-								<li><span class="i18n-implementation"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+								<li class="tree-folder "><span class="i18n-implementation"><i class="glyphicon glyphicon-triangle-right"></i> </span>
 									<ul>
 									</ul>
 								</li>
-								<li><span class="i18n-connectors"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+								<li class="tree-folder "><span class="i18n-connectors"><i class="glyphicon glyphicon-triangle-right"></i> </span>
 									<ul>
 									</ul>
 								</li>
-								<li><span class="i18n-relations"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+								<li class="tree-folder "><span class="i18n-relations"><i class="glyphicon glyphicon-triangle-right"></i> </span>
 									<ul>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a9cce08f-a609-47e0-af26-2ef123ad374d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a9cce08f-a609-47e0-af26-2ef123ad374d.html" target="element">
 															service announce
 														(Historical - Published Services) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7412dc10e9724d42813ec84ab889a712.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7412dc10e9724d42813ec84ab889a712.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Master Server - Coordinator) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1110fa770d6e440a8b4a4a19baee0ac9.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1110fa770d6e440a8b4a4a19baee0ac9.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Broker REST API - Distributed Query Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/2cea9913-7ba4-463d-9296-b17f77b32d0c.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/2cea9913-7ba4-463d-9296-b17f77b32d0c.html" target="element">
 															segment pull (load)
 														(Historical - Deep Storage) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ac0cb7c7-678e-4664-98ab-0a2924eeac5e.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ac0cb7c7-678e-4664-98ab-0a2924eeac5e.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Agile Business - Satisfy Customers) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e18c99d7-134d-4fee-a2c1-3a09ab5cd2da.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e18c99d7-134d-4fee-a2c1-3a09ab5cd2da.html" target="element">
 															<span class="i18n-elementtype-ServingRelationship"></span>
 														(MiddleManager Task (Peon) REST API - Overlord) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a478f18897474bb19f1dd769869ebfe0.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a478f18897474bb19f1dd769869ebfe0.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(MiddleManager Task - Status REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bacf9a3b122c434aab0343fb5c4d6ece.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bacf9a3b122c434aab0343fb5c4d6ece.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(MiddleManager Task - Data Ingestion) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/92b4addf-d9f2-4263-be46-34cadfa85fa2.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/92b4addf-d9f2-4263-be46-34cadfa85fa2.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Successful integration of new tools - Lack of skills) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3043f8f7fae346ee9a8b5af4b114c07c.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3043f8f7fae346ee9a8b5af4b114c07c.html" target="element">
 															segment push
 														(MiddleManager Task - Deep Storage) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-dd650415b157441995104362f1c0844c.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-dd650415b157441995104362f1c0844c.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Data Query - Query Data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-afe2fb67d89e4da28c0c8a06c3769194.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-afe2fb67d89e4da28c0c8a06c3769194.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Overlord (Indexer) REST API - Batch Ingestion Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3441b301b9e5418d939b9495c109ef9f.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3441b301b9e5418d939b9495c109ef9f.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Coordinator - Status REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/37e7a1c9-dd09-4d62-80dd-5249d25a314a.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/37e7a1c9-dd09-4d62-80dd-5249d25a314a.html" target="element">
 															rule task
 														(Coordinator - Load Queue) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-df695d0d44664f08a242a807ce8f9984.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-df695d0d44664f08a242a807ce8f9984.html" target="element">
 															<span class="i18n-elementtype-ServingRelationship"></span>
 														(MiddleManager Task (Peon) REST API - Ingest from some Objects) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1313e3eee9214645852fbc8f68a3c92d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1313e3eee9214645852fbc8f68a3c92d.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Coordinator REST API - Compaction Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/32ac002f-d1db-4b21-af01-d1388eca704a.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/32ac002f-d1db-4b21-af01-d1388eca704a.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Lean differentiation - Market Share) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-cc2a9a835ee54477a1cada8a2abe7e0d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-cc2a9a835ee54477a1cada8a2abe7e0d.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(Ingest Data - Ingest Data Streams) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/761276a9-1f4f-468f-812c-87b6bfd83c9f.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/761276a9-1f4f-468f-812c-87b6bfd83c9f.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Constraints on the delivery of statistics - Ingestion has to finish first) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/27bb3061-2ea6-435f-a675-41d264fa8b8b.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/27bb3061-2ea6-435f-a675-41d264fa8b8b.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Assignment and Balance - Metadata Database) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-0affca87bad746f18a288173a8cec3d3.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-0affca87bad746f18a288173a8cec3d3.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Status REST API - Configuration Monitoring) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3b0864d028e6400bbf4af49009b22ed6.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3b0864d028e6400bbf4af49009b22ed6.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Overlord (Indexer) REST API - Overlord Management Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/9fd6a470-003e-4644-affb-5417448ec26f.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/9fd6a470-003e-4644-affb-5417448ec26f.html" target="element">
 															rule task
 														(Historical - Load Queue) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e01f0e5ef72240e89a7c4a13ac49b454.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e01f0e5ef72240e89a7c4a13ac49b454.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Query - MiddleManager Task) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-ddbbd9d10bc241b88b5f1c5df30457ae.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-ddbbd9d10bc241b88b5f1c5df30457ae.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Historical - Historical REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/3c4ba4de-580b-47b1-b913-790c90b52621.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/3c4ba4de-580b-47b1-b913-790c90b52621.html" target="element">
 															segment announce
 														(Coordinator - Published Segments) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c56024bab1444c4b9bfa3344290a5138.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c56024bab1444c4b9bfa3344290a5138.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Server - Historical) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-11e22ab9dcc64e1ab434f538e860f901.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-11e22ab9dcc64e1ab434f538e860f901.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Router - Router REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-50d88764a2b54ca98c32748472c494e3.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-50d88764a2b54ca98c32748472c494e3.html" target="element">
 															segment announce
 														(MiddleManager Task - Published Segments) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f33611a2-96f0-4c04-8f08-6219c787ae81.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f33611a2-96f0-4c04-8f08-6219c787ae81.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Unwieldy volumes of queryable data - Fear of little-to-no info mgmt) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8ae28c92-e81a-45fa-9b1e-67635690c52f.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8ae28c92-e81a-45fa-9b1e-67635690c52f.html" target="element">
 															ingest jobs
 														(MiddleManager - Ingestion Work Queues) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/09633910-10f7-40ed-903b-54aaf7bcf4a3.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/09633910-10f7-40ed-903b-54aaf7bcf4a3.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Stifled business adaptation - Agile Business) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/13a56670-3e7e-4aef-a56c-32e6ded6dc84.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/13a56670-3e7e-4aef-a56c-32e6ded6dc84.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Ingestion - Metadata Database) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-95e20db0b8c043e9977853577a32414c.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-95e20db0b8c043e9977853577a32414c.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Data Ingestion - Persist to deep store) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-305eacad0d014be6b3b014a973b47e99.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-305eacad0d014be6b3b014a973b47e99.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Historical - Historical Query API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c8d8893443d44d1ebe37b0c3e47a548f.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c8d8893443d44d1ebe37b0c3e47a548f.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(Overlord - Data Ingestion Leadership) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-840f5bd359a8446aa7648d52f38fa8bf.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-840f5bd359a8446aa7648d52f38fa8bf.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Query Server - Broker) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2f12a34cfcef42039834c96c818fa13f.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2f12a34cfcef42039834c96c818fa13f.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(MiddleManager - Status REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-da34e00d3142420bb1cffb167548489d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-da34e00d3142420bb1cffb167548489d.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Master Server - Overlord) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4b20c32f-bfe7-4529-8ae1-4beebab0b0dd.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4b20c32f-bfe7-4529-8ae1-4beebab0b0dd.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Overlord - Overlord Cluster Snapshot) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8644dcfb-c13c-47c1-819a-65e56dbb9d0a.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8644dcfb-c13c-47c1-819a-65e56dbb9d0a.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Operational Efficiency - Market Share) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f62dd54e-87b9-408d-bad1-cea8adc63692.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f62dd54e-87b9-408d-bad1-cea8adc63692.html" target="element">
 															<span class="i18n-elementtype-ServingRelationship"></span>
 														(Historical Query API - Broker) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b8bee8cd-9289-42b1-add3-4ce3915a26bd.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b8bee8cd-9289-42b1-add3-4ce3915a26bd.html" target="element">
 															service announce
 														(MiddleManager - Published Services) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7c4e5565-f77f-4e22-a74c-4f84717a11a2.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7c4e5565-f77f-4e22-a74c-4f84717a11a2.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(druid - Ingestion Work Queues) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-275d8bc9e02b4d9b8d92be3cbfec4f76.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-275d8bc9e02b4d9b8d92be3cbfec4f76.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Ingest Data - Overlord Remote Task Issuer) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-8b506f26f592457e8f6310bedae55f86.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-8b506f26f592457e8f6310bedae55f86.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Ingestion - MiddleManager) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/0ab034bc-1b7d-4767-9cbc-8daf0e6c280c.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/0ab034bc-1b7d-4767-9cbc-8daf0e6c280c.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Ingestion - Zookeeper) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-32ffd5c69380449887796b18153dd143.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-32ffd5c69380449887796b18153dd143.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Status REST API - Discovery Monitoring) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7ce30f04310e45e69e55f0b40b3a581d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7ce30f04310e45e69e55f0b40b3a581d.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Query - Historical) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4bfd1883f5a643d4ae8d51cbb77c04f2.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4bfd1883f5a643d4ae8d51cbb77c04f2.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(Ingest Data - Streaming Ingestion Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/dc4ee9ea-9e2a-42d7-84ba-5ce1ea59bff2.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/dc4ee9ea-9e2a-42d7-84ba-5ce1ea59bff2.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Assignment and Balance - Zookeeper) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6ebe3dd6df1a4e69aa53cd1778c12d8d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6ebe3dd6df1a4e69aa53cd1778c12d8d.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Overlord - Overlord Commands API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/2912b16a-10df-4bc9-ba5a-d25d81c3382d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/2912b16a-10df-4bc9-ba5a-d25d81c3382d.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Stifled business adaptation - Limits on access) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9e83580457d84814af96b788a503449d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-9e83580457d84814af96b788a503449d.html" target="element">
 															<span class="i18n-elementtype-AccessRelationship"></span>
 														(MiddleManager Task - Source Data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fd77e56f56f0407ebdd050d1873ada9a.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fd77e56f56f0407ebdd050d1873ada9a.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Historical - Status REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/0af2c57e-8b96-4eff-80c1-327a93b8b6c2.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/0af2c57e-8b96-4eff-80c1-327a93b8b6c2.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Use a data store that can grow and change easilly - Constraints on the delivery of statistics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/646cfa9e-fd54-42e7-93b4-789bbb6eb82b.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/646cfa9e-fd54-42e7-93b4-789bbb6eb82b.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Use a proven, supported tool - Successful integration of new tools) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/66e713b7-5a48-4a84-93bd-d98cb5f74d77.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/66e713b7-5a48-4a84-93bd-d98cb5f74d77.html" target="element">
 															segment metadata
 														(Coordinator - Metadata Database) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/20925135-0ef5-484f-8dd9-0e6f912030bd.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/20925135-0ef5-484f-8dd9-0e6f912030bd.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Assignment and Balance - Deep Store) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7fc794190e7e4f1aa17125d88ceb1a50.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7fc794190e7e4f1aa17125d88ceb1a50.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Ingest Data - Data Ingestion Leadership) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4ec00eb6effe4324b5ad85e93d0356a5.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4ec00eb6effe4324b5ad85e93d0356a5.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(Ingest Data - Ingest Batch Data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-990de325c4e2466bb640633c2fcc2576.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-990de325c4e2466bb640633c2fcc2576.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Data Ingestion - Ingest Data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6ebce74d31e047278ffe508d69a1ca37.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6ebce74d31e047278ffe508d69a1ca37.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Ingest Data - Overlord Task Master) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-93bbb9db354d423193cca0f50a87be5b.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-93bbb9db354d423193cca0f50a87be5b.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(MiddleManager REST API - MiddleManager Task Control Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/da52b448-3260-483c-9704-40a478659543.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/da52b448-3260-483c-9704-40a478659543.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Successful integration of new tools - Use Good Technology) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e6f6e06123a941dd97b5c6874d369d64.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e6f6e06123a941dd97b5c6874d369d64.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(MiddleManager - MiddleManager Task) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6a2f248a31314587adf32a08b5b04b86.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6a2f248a31314587adf32a08b5b04b86.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Broker REST API - Broker Readiness Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8a84fe64-d0cc-4be4-a320-a2e5f41911a4.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8a84fe64-d0cc-4be4-a320-a2e5f41911a4.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Choose an evolution, not a recreation - Successful integration of new tools) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bf6b33a6133e49ac9d037f4774265653.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bf6b33a6133e49ac9d037f4774265653.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Broker REST API - Broker Data Information Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5a6412fb-cfba-463e-9a3a-d7d7968c1195.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5a6412fb-cfba-463e-9a3a-d7d7968c1195.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Unwieldy volumes of queryable data - Constraints on the delivery of statistics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-41028b6e63374a8e954b5f328ff41892.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-41028b6e63374a8e954b5f328ff41892.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Coordinator - Coordinator REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e317f28b-b2e0-4616-82d1-7d15fbcffb00.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e317f28b-b2e0-4616-82d1-7d15fbcffb00.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(druid - Load Queue) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/3f3090f4-6b0b-4735-99b9-4413287ffcfc.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/3f3090f4-6b0b-4735-99b9-4413287ffcfc.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Broker - Broker Segment Announcements Cache) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5ce853a4-3033-4013-ae72-f217a6df5908.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5ce853a4-3033-4013-ae72-f217a6df5908.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Unwieldy volumes of queryable data - Tendency of data to get bigger) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4cb154a0-06f9-4658-a749-1d1648f11f64.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4cb154a0-06f9-4658-a749-1d1648f11f64.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Ingestion - Deep Store) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-0b2de2514bed48428c69e6ce087643b5.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-0b2de2514bed48428c69e6ce087643b5.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Coordinator - Coordinator Segment Announcements Cache) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2f1b1198b69448fa87ce5f5239df9ef6.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2f1b1198b69448fa87ce5f5239df9ef6.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Ingest Data - Data Ingestion) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b03547c9976941c3bfc2ef4f55e92613.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b03547c9976941c3bfc2ef4f55e92613.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Data Ingestion Leadership - Monitor some Batch Ingests) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/eceda478-e7e2-4aef-b7b2-f6388c12bd40.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/eceda478-e7e2-4aef-b7b2-f6388c12bd40.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Satisfy Customers - Market Share) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fc5cb2ef2a28447898a59c1ec96807e1.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fc5cb2ef2a28447898a59c1ec96807e1.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Assignment and Balance - Coordinator) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/69819171-6ff2-4479-bb58-be4925f80a88.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/69819171-6ff2-4479-bb58-be4925f80a88.html" target="element">
 															ingest jobs
 														(Overlord - Ingestion Work Queues) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-059b0a241f024fa4ba74785f716636df.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-059b0a241f024fa4ba74785f716636df.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Router REST API - Router Data Information Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/637881bb-8190-48e1-a25b-633df010e4f8.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/637881bb-8190-48e1-a25b-633df010e4f8.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Stifled business adaptation - Competitors can access the same skills) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/d6d88904-122c-422d-876c-bcb59f389f75.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/d6d88904-122c-422d-876c-bcb59f389f75.html" target="element">
 															<span class="i18n-elementtype-AssociationRelationship"></span>
 														(Product Owners - Market Share) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5e43b88ece694d648f62bcc582daa6aa.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5e43b88ece694d648f62bcc582daa6aa.html" target="element">
 															<span class="i18n-elementtype-ServingRelationship"></span>
 														(MiddleManager Task (Peon) REST API - Broker) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-35fcb00630a34769b1a3b597e94cdabf.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-35fcb00630a34769b1a3b597e94cdabf.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Broker - Status REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d6be8edc0e8241e18bf3b80a52644b15.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d6be8edc0e8241e18bf3b80a52644b15.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Coordinator REST API - Data Deletion Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-03b799ea1d4649b38dadd567dd9edbf3.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-03b799ea1d4649b38dadd567dd9edbf3.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(Apply Ingestion Rules - Initiate Data Tiering) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bcb67095cb9c400ca43465e124f1df86.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-bcb67095cb9c400ca43465e124f1df86.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(Query Data - Perform TOPN analytics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ef05d433-6035-41c2-b519-2a0ae07f0ee8.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ef05d433-6035-41c2-b519-2a0ae07f0ee8.html" target="element">
 															<span class="i18n-elementtype-AssociationRelationship"></span>
 														(Operational Efficiency - Product Owners) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/fb5de5f2-4541-49b6-9d41-c77c8989f51a.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/fb5de5f2-4541-49b6-9d41-c77c8989f51a.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Zookeeper - druid) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b0364b55b44b439da9e8710eb16b8b94.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b0364b55b44b439da9e8710eb16b8b94.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Assignment and Balance - Historical) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-966befcad2cb4cb5ab1c3a28f622a7ad.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-966befcad2cb4cb5ab1c3a28f622a7ad.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Broker - Broker REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/849b2847-47f4-4ead-b258-eadbc23199ec.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/849b2847-47f4-4ead-b258-eadbc23199ec.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Successful integration of new tools - Perceived immaturity) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-540ddeaf55e4439a85f8bf3bd3d67cc5.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-540ddeaf55e4439a85f8bf3bd3d67cc5.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Coordinator REST API - Coordinator Leadership Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a09e8ecda63d498da59148aaebfb540a.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a09e8ecda63d498da59148aaebfb540a.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(Ingest Data - Batch Ingestion Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/351b009d-a2d3-481a-85e4-42b33a389c6d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/351b009d-a2d3-481a-85e4-42b33a389c6d.html" target="element">
 															<span class="i18n-elementtype-AssociationRelationship"></span>
 														(Product Owners - Agile Business) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-ba9c8015d4694d7c9563834298b82b39.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-ba9c8015d4694d7c9563834298b82b39.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Overlord - Status REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b1eb150a-7463-4bbf-9fd9-c976d2236195.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b1eb150a-7463-4bbf-9fd9-c976d2236195.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Query real-time data directly - Constraints on the delivery of statistics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/cd75f22b-14dc-4edf-9cee-017e065544d4.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/cd75f22b-14dc-4edf-9cee-017e065544d4.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Agile Business - Lean differentiation) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/da8977ea-c40f-415b-b2b8-8b03f674805c.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/da8977ea-c40f-415b-b2b8-8b03f674805c.html" target="element">
 															<span class="i18n-elementtype-AssociationRelationship"></span>
 														(Use Good Technology - Enterprise Architects) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-aac128bc60ab422e97458cc8e7e5f47e.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-aac128bc60ab422e97458cc8e7e5f47e.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Ingest Data - Monitor some Batch Ingests) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/9099377d-6145-4790-9466-47a8e3ea8759.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/9099377d-6145-4790-9466-47a8e3ea8759.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Successful integration of new tools - Differentiation is unclear) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d71c012792cd4cb9904a745ccea50d81.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d71c012792cd4cb9904a745ccea50d81.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Data Ingestion Leadership - Split into subtasks) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a50079c8-5d21-4b00-8293-77c0a05a789c.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/a50079c8-5d21-4b00-8293-77c0a05a789c.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Constraints on the delivery of statistics - Limits on possible calculations) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3c92b2aecd9b4a09b914c3864e96f819.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3c92b2aecd9b4a09b914c3864e96f819.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Ingest Data - Overlord Streaming Task Supervisor) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-0e4fe2c6eeff416b8ea84ee5b4cabdde.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-0e4fe2c6eeff416b8ea84ee5b4cabdde.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(druid - Leader Election Latch) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5cab332f-7577-4bf1-a4f7-9ee70eb2896d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/5cab332f-7577-4bf1-a4f7-9ee70eb2896d.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(druid - Published Segments) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6b0ef78c60134bc48a5ff58fff5cfb26.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6b0ef78c60134bc48a5ff58fff5cfb26.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Status REST API - Health Monitoring) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6ed1cf48a5f1482197c9fa96054807ce.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6ed1cf48a5f1482197c9fa96054807ce.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Ingest Data - Overlord Task Monitor) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-54f0b62a936e492f90a4297b287fcef5.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-54f0b62a936e492f90a4297b287fcef5.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(MiddleManager Task - MiddleManager Task (Peon) REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b0934eaa2bf64c408d2c967a578a98e1.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b0934eaa2bf64c408d2c967a578a98e1.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Ingestion - Overlord) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-83899425201a4eba9a26b17e5531b1c0.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-83899425201a4eba9a26b17e5531b1c0.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(MiddleManager REST API - MiddleManager Management Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6bcb09979da2469d9d16bae7bf1f7ba4.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6bcb09979da2469d9d16bae7bf1f7ba4.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(MiddleManager Task (Peon) REST API - Task Information Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f8982fe848e4417ba0444ab566cc50a9.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f8982fe848e4417ba0444ab566cc50a9.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(MiddleManager - MiddleManager REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8dbfa3f6-3689-47d8-80b1-5769f6781b4e.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/8dbfa3f6-3689-47d8-80b1-5769f6781b4e.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Query - Zookeeper) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6aa3a1c3-2836-44bc-a8c7-cba263d98ecc.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6aa3a1c3-2836-44bc-a8c7-cba263d98ecc.html" target="element">
 															service announce
 														(Coordinator - Published Services) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7b831c9184a1487c987a4d197084608b.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7b831c9184a1487c987a4d197084608b.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Overlord - Overlord (Indexer) REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f8340565-1f0c-44f7-94bc-1c53cfca3b44.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f8340565-1f0c-44f7-94bc-1c53cfca3b44.html" target="element">
 															service announce
 														(Overlord - Published Services) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-51db4598eff744c39e017f6f8b389e83.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-51db4598eff744c39e017f6f8b389e83.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Overlord (Indexer) REST API - Streaming Ingestion Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7aa520c8cb074bf395a6268ebd7b3ab5.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7aa520c8cb074bf395a6268ebd7b3ab5.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Query Server - Router) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d25c4ba40b6e4846b2719215a5efd896.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d25c4ba40b6e4846b2719215a5efd896.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(Query Data - Perform GROUP BY analytics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1b168520a7084bb38c07d46d0b274497.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1b168520a7084bb38c07d46d0b274497.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(Query Data - Perform TIMESCAN analytics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-568414d9c40f4171b2dcef8af15587a9.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-568414d9c40f4171b2dcef8af15587a9.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Historical REST API - Historical Status Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/de7e750b-9e24-48fa-a9f3-cae29010bd4c.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/de7e750b-9e24-48fa-a9f3-cae29010bd4c.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Constraints on the delivery of statistics - Operational Efficiency) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/71cf3391-d293-4c10-9774-b8e5c8e6052e.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/71cf3391-d293-4c10-9774-b8e5c8e6052e.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Deep Store - Deep Storage) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b41a0774-e940-42b7-a555-0b670733f781.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/b41a0774-e940-42b7-a555-0b670733f781.html" target="element">
 															segment metadata
 														(Overlord - Metadata Database) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1146b862d32b4071a98f3d0a2b456a0f.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1146b862d32b4071a98f3d0a2b456a0f.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Overlord (Indexer) REST API - Overlord Leadership Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-886ee6a768344e90871ec582d4657c4f.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-886ee6a768344e90871ec582d4657c4f.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Coordinator - Metadata Database Cache) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5f0333a640ad4dc49db3fd57223b89b3.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5f0333a640ad4dc49db3fd57223b89b3.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Ingest Data - Ingest from some Objects) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/87a1695b-3548-452c-8974-c89dc08fc352.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/87a1695b-3548-452c-8974-c89dc08fc352.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Metadata Database - Metadata Database) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/262452c7-2fac-4572-9c4b-a5e91cd0b3c3.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/262452c7-2fac-4572-9c4b-a5e91cd0b3c3.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Agile Business - Operational Efficiency) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-09d611d967f149e5afe3086e1d1b6db3.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-09d611d967f149e5afe3086e1d1b6db3.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Data Ingestion - Publish to mddb) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a8b59ad97b9f409e84e5e35d5772e9fa.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-a8b59ad97b9f409e84e5e35d5772e9fa.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Data Ingestion - Ingest from some Objects) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e47cc532-27a5-484a-8c35-3a4c4fe41df7.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e47cc532-27a5-484a-8c35-3a4c4fe41df7.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Adopt a DB that has governance embedded - Unwieldy volumes of queryable data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-20139e63b73d4acfa080814bad5e7364.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-20139e63b73d4acfa080814bad5e7364.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Server - MiddleManager) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4742d55f-0d0a-41b3-a818-5297681524e0.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/4742d55f-0d0a-41b3-a818-5297681524e0.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Optimize source data for query execution - Constraints on the delivery of statistics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/3fe474ad-b9eb-43d5-96c8-5bdbd8740407.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/3fe474ad-b9eb-43d5-96c8-5bdbd8740407.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Constraints on the delivery of statistics - Use Good Technology) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ed87d1e9-1f8e-44aa-bb5f-7a6b964dd2d9.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/ed87d1e9-1f8e-44aa-bb5f-7a6b964dd2d9.html" target="element">
 															segment announce
 														(Historical - Published Segments) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-78eedbf0af784a9f83df318398133712.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-78eedbf0af784a9f83df318398133712.html" target="element">
 															<span class="i18n-elementtype-RealizationRelationship"></span>
 														(Ingest Data - Reindex Data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f8ecffcd-2a83-4e2c-9449-63adc8e361ab.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f8ecffcd-2a83-4e2c-9449-63adc8e361ab.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(druid - Published Services) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c1e3942b07224ef19bf7584c0b8eae47.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-c1e3942b07224ef19bf7584c0b8eae47.html" target="element">
 															rules
 														(Coordinator - Metadata Database) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-83e0a65f1ff74436aff5abb525a197e1.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-83e0a65f1ff74436aff5abb525a197e1.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Router - Status REST API) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-abae9dfca464402183ea56abc8777414.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-abae9dfca464402183ea56abc8777414.html" target="element">
 															<span class="i18n-elementtype-ServingRelationship"></span>
 														(MiddleManager Task (Peon) REST API - Monitor some Batch Ingests) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e4910d8f-a735-4b97-879b-9518f70b09ef.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/e4910d8f-a735-4b97-879b-9518f70b09ef.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Unwieldy volumes of queryable data - Use Good Technology) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6e13193f-04c9-499d-a631-a079bc41a924.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/6e13193f-04c9-499d-a631-a079bc41a924.html" target="element">
 															segment announce
 														(Broker - Published Segments) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f9dc4b28-01ae-4950-a906-4e0bcb3e68ef.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/f9dc4b28-01ae-4950-a906-4e0bcb3e68ef.html" target="element">
 															<span class="i18n-elementtype-AssociationRelationship"></span>
 														(Satisfy Customers - Product Owners) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7ac6277f-bad6-4dbe-82ef-4ffbf4a37aaa.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/7ac6277f-bad6-4dbe-82ef-4ffbf4a37aaa.html" target="element">
 															<span class="i18n-elementtype-AggregationRelationship"></span>
 														(Data Query - Broker) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5c3b14a2e78546079676bfa9b0d9e9ed.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5c3b14a2e78546079676bfa9b0d9e9ed.html" target="element">
 															<span class="i18n-elementtype-AssignmentRelationship"></span>
 														(Coordinator REST API - Data Distribution Service) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5d25bd0d8f6f46d5842182ad0ca478e8.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5d25bd0d8f6f46d5842182ad0ca478e8.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Ingest Data - Ingest from a Stream) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6c5eac0cb84d42ef9d428f31b4d87dea.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-6c5eac0cb84d42ef9d428f31b4d87dea.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Payload - Source Data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e56810f271164569aaf68ff0c409a6cd.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e56810f271164569aaf68ff0c409a6cd.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Successful integration of new tools - Fear of complicated integrations) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b1e507bf33544a3d97359e2efc7eef68.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-b1e507bf33544a3d97359e2efc7eef68.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Use MPP + colocation to calculate stats on the fly - Constraints on the delivery of statistics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-51b37f6a6bfb45559a36a4192c5d5772.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-51b37f6a6bfb45559a36a4192c5d5772.html" target="element">
 															<span class="i18n-elementtype-AssociationRelationship"></span>
 														(Lean differentiation - Product Owners) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-64560130138e44bbbcc3f78a21a87c2a.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-64560130138e44bbbcc3f78a21a87c2a.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Use approximation - Constraints on the delivery of statistics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1698bc842e144339b6b63acd6c3db612.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1698bc842e144339b6b63acd6c3db612.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Stifled business adaptation - Security of the application) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3bc3e23dc693476e924ae2a32d70033d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3bc3e23dc693476e924ae2a32d70033d.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Unwieldy volumes of queryable data - More data = more computation) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-cb55455f7bd246fca84bb1661e23b35e.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-cb55455f7bd246fca84bb1661e23b35e.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Constraints on the delivery of statistics - Pre-processing takes time) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fc614fe92a1c4f7d9a5f3ac87aa811dd.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fc614fe92a1c4f7d9a5f3ac87aa811dd.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Broaden the audience for data - Stifled business adaptation) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-50414effc0a9430dbb6ed69fada8334d.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-50414effc0a9430dbb6ed69fada8334d.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Give a richer data exploration experience - Stifled business adaptation) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-8cbe73ac55334dccb2d0a1b1ea781f90.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-8cbe73ac55334dccb2d0a1b1ea781f90.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Evolve schemas over time - Unwieldy volumes of queryable data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-066df95e1fbd4d1894c86ab929806381.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-066df95e1fbd4d1894c86ab929806381.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Scale data storage on the fly - Unwieldy volumes of queryable data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7a400c68e1fd4a2f84a2f242357f0e6a.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7a400c68e1fd4a2f84a2f242357f0e6a.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Constraints on the delivery of statistics - Unoptimised source data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-dc3fad4d58f740f49d9df318f25c402c.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-dc3fad4d58f740f49d9df318f25c402c.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Scale and tier query capability to need - Constraints on the delivery of statistics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1c836d74367f41a59a145dc18b888afe.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1c836d74367f41a59a145dc18b888afe.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Unwieldy volumes of queryable data - Source data size and shape changes) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-72589edf7109458486f3f63829513c4a.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-72589edf7109458486f3f63829513c4a.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Scale ingestion according to need - Unwieldy volumes of queryable data) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3383dc4c905949759c3a102088a7e9cb.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-3383dc4c905949759c3a102088a7e9cb.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Adopt loosely-coupled / shared nothing architecture - Scale ingestion according to need) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-8e2ec48adb5342d59ed2f5c41623ef2e.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-8e2ec48adb5342d59ed2f5c41623ef2e.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Adopt loosely-coupled / shared nothing architecture - Scale and tier query capability to need) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2cfdf91617eb42569df6e8b44bfe30f4.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2cfdf91617eb42569df6e8b44bfe30f4.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Adopt loosely-coupled / shared nothing architecture - Scale data storage on the fly) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1113f406ca8449d0b886b8995b703fe3.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-1113f406ca8449d0b886b8995b703fe3.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Build robust back-end services - Stifled business adaptation) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-99b6450f79ce4865a5cf366c11d7841e.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-99b6450f79ce4865a5cf366c11d7841e.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Adopt loosely-coupled / shared nothing architecture - Build robust back-end services) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5ff68dd279154022932cf5f2505e201b.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-5ff68dd279154022932cf5f2505e201b.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Adopt loosely-coupled / shared nothing architecture - Use MPP + colocation to calculate stats on the fly) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-dfb14e010b544347b4ad09f0fb28f6ca.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-dfb14e010b544347b4ad09f0fb28f6ca.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Constraints on the delivery of statistics - Data needs to be curated first) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-83893fd8d4e54533ac168f33402de39b.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-83893fd8d4e54533ac168f33402de39b.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Constraints on the delivery of statistics - Limits on dimensions and rows) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e3670df5f78549ad9e0482c93713c9a1.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-e3670df5f78549ad9e0482c93713c9a1.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Constraints on the delivery of statistics - Different sources for historical and real-time) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d399dc81a5b24942acca21f91f8fdbf9.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-d399dc81a5b24942acca21f91f8fdbf9.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Automatically control historical data available - Constraints on the delivery of statistics) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fa108fe637ac4139906a3fba20e39aa9.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-fa108fe637ac4139906a3fba20e39aa9.html" target="element">
 															<span class="i18n-elementtype-CompositionRelationship"></span>
 														(Constraints on the delivery of statistics - Source data is not next to the query engine) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7644a2bbc0614fb283846cfdf14c682c.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-7644a2bbc0614fb283846cfdf14c682c.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Give a consistent data view - Stifled business adaptation) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4c8a041b13cf4a20b337066a908aa562.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-4c8a041b13cf4a20b337066a908aa562.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Maintain the user's attention - Stifled business adaptation) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2007b103bcdd49dba9c16fc8425f846b.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-2007b103bcdd49dba9c16fc8425f846b.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Respond to evolving UI demands - Stifled business adaptation) 
 													</a></li>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f42f1768e4ab4605bfc5c92fb742e108.html" target="element">
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/elements/id-f42f1768e4ab4605bfc5c92fb742e108.html" target="element">
 															<span class="i18n-elementtype-InfluenceRelationship"></span>
 														(Scale to meet service demand - Stifled business adaptation) 
 													</a></li>
@@ -1067,93 +1067,93 @@
 								</li>
 							</ul>
 						</li>
-						<li><span class="i18n-views"><i class="glyphicon glyphicon-triangle-right"></i> </span>
+						<li class="tree-folder "><span class="i18n-views"><i class="glyphicon glyphicon-triangle-right"></i> </span>
 							<ul>
-								<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Using Druid </span>
+								<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Using Druid </span>
 									<ul>
-										<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Services </span>
+										<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Services </span>
 											<ul>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-6f712b77c8b04e7dad3b78874aba85ae.html" target="view"> Coordinator </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-471cb0d088014dde96191fab76d1d6aa.html" target="view"> Router </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-0b46b4ddcfbc405a90a379f57cc7ed71.html" target="view"> Overlord </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-69ce9406b9d44752a258a88c5ee0c390.html" target="view"> Historical </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-1086c6d8d563479bbfc80440ea6debcb.html" target="view"> MiddleManager </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-130e4f0583a14b9b85f34e0cfd03609a.html" target="view"> Broker </a></li>
-															<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-1ff89446bffb4f439d64dd0752c27279.html" target="view"> MiddleManager Task (Peon) </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-6f712b77c8b04e7dad3b78874aba85ae.html" target="view"> Coordinator </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-471cb0d088014dde96191fab76d1d6aa.html" target="view"> Router </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-0b46b4ddcfbc405a90a379f57cc7ed71.html" target="view"> Overlord </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-69ce9406b9d44752a258a88c5ee0c390.html" target="view"> Historical </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-1086c6d8d563479bbfc80440ea6debcb.html" target="view"> MiddleManager </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-130e4f0583a14b9b85f34e0cfd03609a.html" target="view"> Broker </a></li>
+															<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-1ff89446bffb4f439d64dd0752c27279.html" target="view"> MiddleManager Task (Peon) </a></li>
 
 											</ul>
 											</li>
 									</ul>
-									</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> ZZ Old </span>
+									</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> ZZ Old </span>
 									<ul>
-										<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Technology </span>
+										<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Technology </span>
 											<ul>
-												<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Collaborations </span>
+												<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Collaborations </span>
 													<ul>
-														<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Overview </span>
+														<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Overview </span>
 															<ul>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-57d762878fe6416698a44645d143fbcd.html" target="view"> Ingestion to Assignment </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/507738b1-fc5d-4d2b-8e08-6c89b5f45d44.html" target="view"> Dependencies </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-4ae10c7f77a14d1a96eee1ee0ef343b1.html" target="view"> Assignment to Query </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-57d762878fe6416698a44645d143fbcd.html" target="view"> Ingestion to Assignment </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/507738b1-fc5d-4d2b-8e08-6c89b5f45d44.html" target="view"> Dependencies </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-4ae10c7f77a14d1a96eee1ee0ef343b1.html" target="view"> Assignment to Query </a></li>
 
 															</ul>
-															</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Coordinator-led </span>
+															</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Coordinator-led </span>
 															<ul>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/9badf9d8-ca5c-4505-8c73-aac444baf2dc.html" target="view"> Assignment Detail </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-f6af28bd943240b4b25f0836b2bc51a4.html" target="view"> Assignment </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/9badf9d8-ca5c-4505-8c73-aac444baf2dc.html" target="view"> Assignment Detail </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-f6af28bd943240b4b25f0836b2bc51a4.html" target="view"> Assignment </a></li>
 
 															</ul>
-															</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Overlord-led </span>
+															</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Overlord-led </span>
 															<ul>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/9de6a14c-b818-4e0e-ac61-a40793825dd6.html" target="view"> Ingestion Detail </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-1fc0c5e4264848b3adb0d4f84e3158c6.html" target="view"> Ingestion </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/9de6a14c-b818-4e0e-ac61-a40793825dd6.html" target="view"> Ingestion Detail </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-1fc0c5e4264848b3adb0d4f84e3158c6.html" target="view"> Ingestion </a></li>
 
 															</ul>
-															</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Dependencies </span>
+															</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Dependencies </span>
 															<ul>
-																<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Overview </span>
+																<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Overview </span>
 																	<ul>
-																					<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-9d2502a7e48f4855aee8a14b31317b51.html" target="view"> Deep Store and MDDB </a></li>
+																					<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-9d2502a7e48f4855aee8a14b31317b51.html" target="view"> Deep Store and MDDB </a></li>
 
 																	</ul>
 																	</li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/b076352e-bcd0-41b8-8980-f925e06f670c.html" target="view"> Zookeeper (2) </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-eb869558058b4205a1359117c9c6d8e6.html" target="view"> Deep Storage </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/fa4732be-ca78-4734-85e3-b92e7b476e60.html" target="view"> Zookeeper Detail </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-fe356d35cff94538a0ed5a464abf95cb.html" target="view"> Zookeeper </a></li>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-eb19a688f8034670be503735ca56312a.html" target="view"> Metadata Database </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/b076352e-bcd0-41b8-8980-f925e06f670c.html" target="view"> Zookeeper (2) </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-eb869558058b4205a1359117c9c6d8e6.html" target="view"> Deep Storage </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/fa4732be-ca78-4734-85e3-b92e7b476e60.html" target="view"> Zookeeper Detail </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-fe356d35cff94538a0ed5a464abf95cb.html" target="view"> Zookeeper </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-eb19a688f8034670be503735ca56312a.html" target="view"> Metadata Database </a></li>
 
 															</ul>
-															</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Broker-led </span>
+															</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Broker-led </span>
 															<ul>
-																			<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/3e5b650f-dbf7-4f40-b123-48ecdec4ca8c.html" target="view"> Query Detail </a></li>
+																			<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/3e5b650f-dbf7-4f40-b123-48ecdec4ca8c.html" target="view"> Query Detail </a></li>
 
 															</ul>
 															</li>
 													</ul>
-													</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Ingestion </span>
+													</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Ingestion </span>
 													<ul>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-5d001e0bd0dc49c5be92d75b8ee00356.html" target="view"> Ingestion </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-5d001e0bd0dc49c5be92d75b8ee00356.html" target="view"> Ingestion </a></li>
 
 													</ul>
 													</li>
 											</ul>
-											</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Application </span>
+											</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Application </span>
 											<ul>
-												<li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Implementation </span>
+												<li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Implementation </span>
 													<ul>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-3ec71c043faf4c02a889f7d4c8cf7dca.html" target="view"> Ingestion </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-ae5304d62d724be88fa3acc24442b51d.html" target="view"> Query </a></li>
-																	<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-7b9fe4b7460749b08dfe0e336369e2d5.html" target="view"> Management </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-3ec71c043faf4c02a889f7d4c8cf7dca.html" target="view"> Ingestion </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-ae5304d62d724be88fa3acc24442b51d.html" target="view"> Query </a></li>
+																	<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/id-7b9fe4b7460749b08dfe0e336369e2d5.html" target="view"> Management </a></li>
 
 													</ul>
 													</li>
 											</ul>
 											</li>
 									</ul>
-									</li><li class="tree-folder"><span><i class="glyphicon glyphicon-triangle-right"></i> Business </span>
+									</li><li class="tree-folder "><span><i class="glyphicon glyphicon-triangle-right"></i> Business </span>
 									<ul>
-													<li class="tree-element"><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/0df24805-5e2b-4d3b-bfe6-fe6a70933442.html" target="view"> Stakeholder Viewpoint </a></li>
+													<li class="tree-element "><a href="8073010a-7814-4d71-85fd-e9ebddf307b6/views/0df24805-5e2b-4d3b-bfe6-fe6a70933442.html" target="view"> Stakeholder Viewpoint </a></li>
 
 									</ul>
 									</li>
